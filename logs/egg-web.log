@@ -1,0 +1,239 @@
+2019-05-24 23:29:08,627 INFO 628 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-24 23:29:08,658 INFO 628 [egg-multipart] stream mode enable
+2019-05-24 23:29:10,864 INFO 628 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/myMovie/public
+2019-05-24 23:29:10,867 INFO 628 [egg-security] use csrf middleware
+2019-05-24 23:29:10,867 INFO 628 [egg-security] use methodnoallow middleware
+2019-05-24 23:29:10,868 INFO 628 [egg-security] use noopen middleware
+2019-05-24 23:29:10,868 INFO 628 [egg-security] use nosniff middleware
+2019-05-24 23:29:10,869 INFO 628 [egg-security] use xssProtection middleware
+2019-05-24 23:29:10,869 INFO 628 [egg-security] use xframe middleware
+2019-05-24 23:29:10,869 INFO 628 [egg-security] use dta middleware
+2019-05-24 23:29:10,869 INFO 628 [egg-security] compose 7 middlewares into one security middleware
+2019-05-24 23:29:10,910 INFO 628 [egg:core] dump config after load, 6ms
+2019-05-24 23:29:10,930 INFO 628 [egg-watcher:application] watcher start success
+2019-05-24 23:29:10,949 INFO 628 [egg:core] dump config after ready, 14ms
+2019-05-24 23:29:19,561 ERROR 628 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 628
+hostname: coding.ide
+
+2019-05-24 23:29:58,212 INFO 819 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-24 23:29:58,243 INFO 819 [egg-multipart] stream mode enable
+2019-05-24 23:29:58,280 INFO 819 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/myMovie/public
+2019-05-24 23:29:58,282 INFO 819 [egg-security] use csrf middleware
+2019-05-24 23:29:58,283 INFO 819 [egg-security] use methodnoallow middleware
+2019-05-24 23:29:58,283 INFO 819 [egg-security] use noopen middleware
+2019-05-24 23:29:58,284 INFO 819 [egg-security] use nosniff middleware
+2019-05-24 23:29:58,284 INFO 819 [egg-security] use xssProtection middleware
+2019-05-24 23:29:58,284 INFO 819 [egg-security] use xframe middleware
+2019-05-24 23:29:58,285 INFO 819 [egg-security] use dta middleware
+2019-05-24 23:29:58,285 INFO 819 [egg-security] compose 7 middlewares into one security middleware
+2019-05-24 23:29:58,294 INFO 819 [egg:core] dump config after load, 6ms
+2019-05-24 23:29:58,358 INFO 819 [egg-watcher:application] watcher start success
+2019-05-24 23:29:58,367 INFO 819 [egg:core] dump config after ready, 6ms
+2019-05-24 23:30:02,009 WARN 819 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-24 23:30:11,724 ERROR 819 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 819
+hostname: coding.ide
+
+2019-05-24 23:30:39,458 INFO 1081 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-24 23:30:39,489 INFO 1081 [egg-multipart] stream mode enable
+2019-05-24 23:30:39,526 INFO 1081 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/myMovie/public
+2019-05-24 23:30:39,528 INFO 1081 [egg-security] use csrf middleware
+2019-05-24 23:30:39,529 INFO 1081 [egg-security] use methodnoallow middleware
+2019-05-24 23:30:39,529 INFO 1081 [egg-security] use noopen middleware
+2019-05-24 23:30:39,530 INFO 1081 [egg-security] use nosniff middleware
+2019-05-24 23:30:39,530 INFO 1081 [egg-security] use xssProtection middleware
+2019-05-24 23:30:39,530 INFO 1081 [egg-security] use xframe middleware
+2019-05-24 23:30:39,530 INFO 1081 [egg-security] use dta middleware
+2019-05-24 23:30:39,530 INFO 1081 [egg-security] compose 7 middlewares into one security middleware
+2019-05-24 23:30:39,540 INFO 1081 [egg:core] dump config after load, 6ms
+2019-05-24 23:30:39,619 INFO 1081 [egg-watcher:application] watcher start success
+2019-05-24 23:30:39,627 INFO 1081 [egg:core] dump config after ready, 5ms
+2019-05-24 23:30:46,031 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 1081
+hostname: coding.ide
+
+2019-05-24 23:31:01,335 WARN 1081 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-24 23:31:10,360 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 1081
+hostname: coding.ide
+
+2019-05-24 23:32:01,756 WARN 1081 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-24 23:32:11,334 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 1081
+hostname: coding.ide
+
+2019-05-24 23:33:02,142 WARN 1081 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-24 23:33:15,205 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 1081
+hostname: coding.ide
+
+2019-05-24 23:34:01,567 WARN 1081 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-24 23:34:11,530 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 1081
+hostname: coding.ide
+
+2019-05-24 23:35:01,974 WARN 1081 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-24 23:36:01,381 WARN 1081 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-24 23:37:01,782 WARN 1081 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-24 23:37:44,882 INFO 2748 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-24 23:37:44,913 INFO 2748 [egg-multipart] stream mode enable
+2019-05-24 23:37:44,952 INFO 2748 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/myMovie/public
+2019-05-24 23:37:44,954 INFO 2748 [egg-security] use csrf middleware
+2019-05-24 23:37:44,955 INFO 2748 [egg-security] use methodnoallow middleware
+2019-05-24 23:37:44,955 INFO 2748 [egg-security] use noopen middleware
+2019-05-24 23:37:44,955 INFO 2748 [egg-security] use nosniff middleware
+2019-05-24 23:37:44,956 INFO 2748 [egg-security] use xssProtection middleware
+2019-05-24 23:37:44,956 INFO 2748 [egg-security] use xframe middleware
+2019-05-24 23:37:44,956 INFO 2748 [egg-security] use dta middleware
+2019-05-24 23:37:44,956 INFO 2748 [egg-security] compose 7 middlewares into one security middleware
+2019-05-24 23:37:44,967 INFO 2748 [egg:core] dump config after load, 6ms
+2019-05-24 23:37:45,027 INFO 2748 [egg-watcher:application] watcher start success
+2019-05-24 23:37:45,040 INFO 2748 [egg:core] dump config after ready, 10ms
+2019-05-24 23:37:51,685 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 2748
+hostname: coding.ide
+
+2019-05-24 23:38:02,210 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-24 23:38:11,718 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 2748
+hostname: coding.ide
+
+2019-05-24 23:39:01,577 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-24 23:39:10,731 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 2748
+hostname: coding.ide
+
+2019-05-24 23:40:02,034 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-24 23:40:11,859 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 2748
+hostname: coding.ide
+
+2019-05-24 23:41:02,138 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-24 23:41:11,814 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 2748
+hostname: coding.ide
+
+2019-05-24 23:42:01,937 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-24 23:43:01,334 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-24 23:44:01,798 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again

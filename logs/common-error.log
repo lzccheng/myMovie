@@ -1,0 +1,168 @@
+2019-05-24 23:29:19,560 ERROR 628 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 628
+hostname: coding.ide
+
+2019-05-24 23:30:11,722 ERROR 819 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 819
+hostname: coding.ide
+
+2019-05-24 23:30:46,030 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 1081
+hostname: coding.ide
+
+2019-05-24 23:31:10,358 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 1081
+hostname: coding.ide
+
+2019-05-24 23:32:11,334 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 1081
+hostname: coding.ide
+
+2019-05-24 23:33:15,204 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 1081
+hostname: coding.ide
+
+2019-05-24 23:34:11,530 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 1081
+hostname: coding.ide
+
+2019-05-24 23:37:51,684 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 2748
+hostname: coding.ide
+
+2019-05-24 23:38:11,718 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 2748
+hostname: coding.ide
+
+2019-05-24 23:39:10,731 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 2748
+hostname: coding.ide
+
+2019-05-24 23:40:11,857 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 2748
+hostname: coding.ide
+
+2019-05-24 23:41:11,812 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 2748
+hostname: coding.ide
+

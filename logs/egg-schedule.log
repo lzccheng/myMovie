@@ -1,0 +1,66 @@
+2019-05-24 23:29:08,657 INFO 628 [egg-schedule]: register schedule /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-05-24 23:29:08,657 INFO 628 [egg-schedule]: register schedule /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-05-24 23:29:08,657 INFO 628 [egg-schedule]: register schedule /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-05-24 23:29:10,956 INFO 618 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 18049047ms at 2019-05-25 04:30:00.003
+2019-05-24 23:29:10,956 INFO 618 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1849044ms at 2019-05-25 00:00:00.000
+2019-05-24 23:29:10,957 INFO 618 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1850044ms at 2019-05-25 00:00:01.001
+2019-05-24 23:29:58,376 INFO 809 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 18001627ms at 2019-05-25 04:30:00.003
+2019-05-24 23:29:58,376 INFO 809 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1801624ms at 2019-05-25 00:00:00.000
+2019-05-24 23:29:58,376 INFO 809 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1802624ms at 2019-05-25 00:00:01.000
+2019-05-24 23:29:58,242 INFO 819 [egg-schedule]: register schedule /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-05-24 23:29:58,242 INFO 819 [egg-schedule]: register schedule /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-05-24 23:29:58,242 INFO 819 [egg-schedule]: register schedule /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-05-24 23:30:04,613 INFO 876 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17995390ms at 2019-05-25 04:30:00.003
+2019-05-24 23:30:04,613 INFO 876 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1795387ms at 2019-05-25 00:00:00.000
+2019-05-24 23:30:04,613 INFO 876 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1796387ms at 2019-05-25 00:00:01.000
+2019-05-24 23:30:39,636 INFO 1071 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17960368ms at 2019-05-25 04:30:00.004
+2019-05-24 23:30:39,637 INFO 1071 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1760363ms at 2019-05-25 00:00:00.000
+2019-05-24 23:30:39,637 INFO 1071 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1761363ms at 2019-05-25 00:00:01.000
+2019-05-24 23:30:39,488 INFO 1081 [egg-schedule]: register schedule /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-05-24 23:30:39,488 INFO 1081 [egg-schedule]: register schedule /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-05-24 23:30:39,488 INFO 1081 [egg-schedule]: register schedule /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-05-24 23:31:03,714 INFO 1163 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17936289ms at 2019-05-25 04:30:00.003
+2019-05-24 23:31:03,714 INFO 1163 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1736286ms at 2019-05-25 00:00:00.000
+2019-05-24 23:31:03,715 INFO 1163 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1737286ms at 2019-05-25 00:00:01.001
+2019-05-24 23:32:04,153 INFO 1297 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17875849ms at 2019-05-25 04:30:00.002
+2019-05-24 23:32:04,154 INFO 1297 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1675846ms at 2019-05-25 00:00:00.000
+2019-05-24 23:32:04,154 INFO 1297 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1676846ms at 2019-05-25 00:00:01.000
+2019-05-24 23:33:04,589 INFO 1483 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17815414ms at 2019-05-25 04:30:00.003
+2019-05-24 23:33:04,589 INFO 1483 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1615411ms at 2019-05-25 00:00:00.000
+2019-05-24 23:33:04,590 INFO 1483 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1616411ms at 2019-05-25 00:00:01.001
+2019-05-24 23:34:03,990 INFO 1721 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17756014ms at 2019-05-25 04:30:00.004
+2019-05-24 23:34:03,991 INFO 1721 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1556009ms at 2019-05-25 00:00:00.000
+2019-05-24 23:34:03,991 INFO 1721 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1557009ms at 2019-05-25 00:00:01.000
+2019-05-24 23:35:04,471 INFO 2011 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17695533ms at 2019-05-25 04:30:00.004
+2019-05-24 23:35:04,471 INFO 2011 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1495529ms at 2019-05-25 00:00:00.000
+2019-05-24 23:35:04,471 INFO 2011 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1496529ms at 2019-05-25 00:00:01.000
+2019-05-24 23:36:04,022 INFO 2302 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17635981ms at 2019-05-25 04:30:00.003
+2019-05-24 23:36:04,023 INFO 2302 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1435977ms at 2019-05-25 00:00:00.000
+2019-05-24 23:36:04,023 INFO 2302 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1436977ms at 2019-05-25 00:00:01.000
+2019-05-24 23:37:45,051 INFO 2738 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17534953ms at 2019-05-25 04:30:00.004
+2019-05-24 23:37:45,052 INFO 2738 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1334948ms at 2019-05-25 00:00:00.000
+2019-05-24 23:37:45,052 INFO 2738 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1335948ms at 2019-05-25 00:00:01.000
+2019-05-24 23:37:44,912 INFO 2748 [egg-schedule]: register schedule /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-05-24 23:37:44,912 INFO 2748 [egg-schedule]: register schedule /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-05-24 23:37:44,912 INFO 2748 [egg-schedule]: register schedule /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-05-24 23:38:04,662 INFO 2869 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17515341ms at 2019-05-25 04:30:00.003
+2019-05-24 23:38:04,662 INFO 2869 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1315338ms at 2019-05-25 00:00:00.000
+2019-05-24 23:38:04,662 INFO 2869 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1316338ms at 2019-05-25 00:00:01.000
+2019-05-24 23:39:03,978 INFO 3049 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17456029ms at 2019-05-25 04:30:00.005
+2019-05-24 23:39:03,978 INFO 3049 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1256022ms at 2019-05-25 00:00:00.000
+2019-05-24 23:39:03,978 INFO 3049 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1257022ms at 2019-05-25 00:00:01.000
+2019-05-24 23:40:04,528 INFO 3449 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17395475ms at 2019-05-25 04:30:00.003
+2019-05-24 23:40:04,528 INFO 3449 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1195472ms at 2019-05-25 00:00:00.000
+2019-05-24 23:40:04,528 INFO 3449 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1196472ms at 2019-05-25 00:00:01.000
+2019-05-24 23:41:04,606 INFO 4016 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17335397ms at 2019-05-25 04:30:00.003
+2019-05-24 23:41:04,606 INFO 4016 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1135394ms at 2019-05-25 00:00:00.000
+2019-05-24 23:41:04,607 INFO 4016 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1136394ms at 2019-05-25 00:00:01.001
+2019-05-24 23:42:04,491 INFO 4414 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17275512ms at 2019-05-25 04:30:00.003
+2019-05-24 23:42:04,491 INFO 4414 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1075509ms at 2019-05-25 00:00:00.000
+2019-05-24 23:42:04,492 INFO 4414 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1076509ms at 2019-05-25 00:00:01.001
+2019-05-24 23:43:03,989 INFO 4759 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17216014ms at 2019-05-25 04:30:00.003
+2019-05-24 23:43:03,989 INFO 4759 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1016011ms at 2019-05-25 00:00:00.000
+2019-05-24 23:43:03,989 INFO 4759 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1017011ms at 2019-05-25 00:00:01.000
+2019-05-24 23:44:04,417 INFO 5107 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17155586ms at 2019-05-25 04:30:00.003
+2019-05-24 23:44:04,417 INFO 5107 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 955583ms at 2019-05-25 00:00:00.000
+2019-05-24 23:44:04,417 INFO 5107 [Timer] /home/coding/workspace/myMovie/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 956583ms at 2019-05-25 00:00:01.000
