@@ -6,9 +6,9 @@ export default class Header extends Component {
   }
 
   render() {
-    return <header className="header">
-      <div className="container"><h1>
-        <a href="/" className="router-link-active">Egg + Ant-Design + TypeScript</a></h1>
+    return <header className="_header">
+      <div className="container">
+        <a href="/" className="">88影视院</a>
       </div>
     </header>;
   }

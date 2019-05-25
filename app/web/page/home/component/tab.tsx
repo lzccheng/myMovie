@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Tabs } from 'antd';
 import Header from '../../../component/header/header';
+import Top from './TopComponent/top';
+import List from './list/List';
 import { TabProps } from '../../../framework/type';
 import './tab.css';
 
@@ -11,17 +13,53 @@ const tabItemClick = (key) => {
 // https://github.com/gaearon/react-hot-loader/issues/525
 // must export, not export default
 export class Tab extends Component<TabProps, any> {
+  constructor () {
+    this.state = {
+      list: [
+        {
+          img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
+          title: '美女'
+        },
+        {
+          img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
+          title: '美女'
+        },
+        {
+          img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
+          title: '美女'
+        },
+        {
+          img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
+          title: '美女'
+        },
+        {
+          img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
+          title: '美女'
+        },
+        {
+          img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
+          title: '美女'
+        },
+      ]
+    }
+  }
+  componentDidMount() {
+    // console.log(this.state)
+  }
   render() {
     return <div>
       <Header></Header>
-      <div className="tab">
-        <h1>{this.props.message.text}</h1>
-        <Tabs defaultActiveKey="1" onChange={tabItemClick}>
-          <TabPane tab="Tab 1" key="1">Content of Tab Pane 1</TabPane>
-          <TabPane tab="Tab 2" key="2">Content of Tab Pane 2</TabPane>
-          <TabPane tab="Tab 3" key="3">Content of Tab Pane 3</TabPane>
-        </Tabs>
+      <div className="container">
+        <div className="row justify-content-between">
+          <div className="col-md-9 col-lg-9">
+            <Top text={'视频：'}/>
+            <List list={this.state.list}/>
+          </div>
+          <div className="col-md-3 col-lg-3 hidden-xs hidden-sm">
+            <Top text={'分类：'}/>
+          </div>
+        </div>
       </div>
-    </div>;
+    </div>
   }
 }

@@ -5,7 +5,8 @@ const resolve = (filepath) => path.resolve(__dirname, filepath);
 module.exports = {
   devtool: 'eval',
   entry: {
-    home: 'app/web/page/home/index.tsx'
+    home: 'app/web/page/home/index.tsx',
+    detail: 'app/web/page/detail/index.tsx'
   },
   lib: ['react', 'react-dom'],
   loaders: {
@@ -17,8 +18,8 @@ module.exports = {
       options: {
         javascriptEnabled: true,
         modifyVars: {
-          'primary-color': 'red',
-          'link-color': '#1DA57A',
+          'primary-color': '#1890ff',
+          'link-color': '#fff',
           'border-radius-base': '2px'
         }
       }

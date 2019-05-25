@@ -1,0 +1,17 @@
+.list_item {
+	margin: 5px 0;
+	transition: .5s;
+}
+.list_item:hover {
+	box-shadow: 0 0 8px #555;
+	border-radius: 5px;
+}
+.list_item img {
+	border-radius: 5px;
+}
+.list_item p {
+	padding: 5px;
+}
+.marTop {
+	margin-top: 10px;
+}

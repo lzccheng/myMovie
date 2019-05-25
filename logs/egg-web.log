@@ -237,3 +237,280 @@ hostname: coding.ide
 2019-05-24 23:42:01,937 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
 2019-05-24 23:43:01,334 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
 2019-05-24 23:44:01,798 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-25 16:59:35,417 INFO 9544 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 16:59:35,479 INFO 9544 [egg-multipart] stream mode enable
+2019-05-25 16:59:39,100 INFO 9544 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 16:59:39,117 INFO 9544 [egg-security] use csrf middleware
+2019-05-25 16:59:39,120 INFO 9544 [egg-security] use methodnoallow middleware
+2019-05-25 16:59:39,122 INFO 9544 [egg-security] use noopen middleware
+2019-05-25 16:59:39,124 INFO 9544 [egg-security] use nosniff middleware
+2019-05-25 16:59:39,126 INFO 9544 [egg-security] use xssProtection middleware
+2019-05-25 16:59:39,127 INFO 9544 [egg-security] use xframe middleware
+2019-05-25 16:59:39,128 INFO 9544 [egg-security] use dta middleware
+2019-05-25 16:59:39,128 INFO 9544 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 16:59:39,188 INFO 9544 [egg:core] dump config after load, 14ms
+2019-05-25 16:59:39,214 INFO 9544 [egg-watcher:application] watcher start success
+2019-05-25 16:59:39,229 INFO 9544 [egg:core] dump config after ready, 12ms
+2019-05-25 17:28:46,844 ERROR 9544 nodejs.ServerNoResponseError: server 127.0.0.1:56758 no response in 40001ms, maybe the socket is end on the other side. (address: 127.0.0.1:56758)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\cheng\Desktop\myMovie\myMovie\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ServerNoResponseError"
+pid: 9544
+hostname: DESKTOP-VI1R32M
+
+2019-05-25 17:28:46,846 WARN 9544 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-25 17:39:01,936 INFO 9396 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 17:39:02,014 INFO 9396 [egg-multipart] stream mode enable
+2019-05-25 17:39:02,190 INFO 9396 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 17:39:02,198 INFO 9396 [egg-security] use csrf middleware
+2019-05-25 17:39:02,201 INFO 9396 [egg-security] use methodnoallow middleware
+2019-05-25 17:39:02,202 INFO 9396 [egg-security] use noopen middleware
+2019-05-25 17:39:02,205 INFO 9396 [egg-security] use nosniff middleware
+2019-05-25 17:39:02,206 INFO 9396 [egg-security] use xssProtection middleware
+2019-05-25 17:39:02,207 INFO 9396 [egg-security] use xframe middleware
+2019-05-25 17:39:02,208 INFO 9396 [egg-security] use dta middleware
+2019-05-25 17:39:02,208 INFO 9396 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 17:39:05,985 INFO 9396 [egg:core] dump config after load, 28ms
+2019-05-25 17:39:06,021 INFO 9396 [egg-watcher:application] watcher start success
+2019-05-25 17:39:06,043 INFO 9396 [egg:core] dump config after ready, 18ms
+2019-05-25 18:11:52,239 INFO 9608 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 18:11:52,324 INFO 9608 [egg-multipart] stream mode enable
+2019-05-25 18:11:53,093 INFO 9608 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 18:11:53,109 INFO 9608 [egg-security] use csrf middleware
+2019-05-25 18:11:53,112 INFO 9608 [egg-security] use methodnoallow middleware
+2019-05-25 18:11:53,114 INFO 9608 [egg-security] use noopen middleware
+2019-05-25 18:11:53,118 INFO 9608 [egg-security] use nosniff middleware
+2019-05-25 18:11:53,119 INFO 9608 [egg-security] use xssProtection middleware
+2019-05-25 18:11:53,120 INFO 9608 [egg-security] use xframe middleware
+2019-05-25 18:11:53,122 INFO 9608 [egg-security] use dta middleware
+2019-05-25 18:11:53,122 INFO 9608 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 18:11:53,170 INFO 9608 [egg:core] dump config after load, 17ms
+2019-05-25 18:11:53,203 INFO 9608 [egg-watcher:application] watcher start success
+2019-05-25 18:11:53,224 INFO 9608 [egg:core] dump config after ready, 18ms
+2019-05-25 19:07:24,655 INFO 1128 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 19:07:24,754 INFO 1128 [egg-multipart] stream mode enable
+2019-05-25 19:07:25,778 INFO 1128 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 19:07:25,805 INFO 1128 [egg-security] use csrf middleware
+2019-05-25 19:07:25,810 INFO 1128 [egg-security] use methodnoallow middleware
+2019-05-25 19:07:25,812 INFO 1128 [egg-security] use noopen middleware
+2019-05-25 19:07:25,816 INFO 1128 [egg-security] use nosniff middleware
+2019-05-25 19:07:25,818 INFO 1128 [egg-security] use xssProtection middleware
+2019-05-25 19:07:25,820 INFO 1128 [egg-security] use xframe middleware
+2019-05-25 19:07:25,822 INFO 1128 [egg-security] use dta middleware
+2019-05-25 19:07:25,822 INFO 1128 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 19:07:25,893 INFO 1128 [egg:core] dump config after load, 22ms
+2019-05-25 19:07:25,929 INFO 1128 [egg-watcher:application] watcher start success
+2019-05-25 19:07:25,951 INFO 1128 [egg:core] dump config after ready, 18ms
+2019-05-25 19:07:32,430 INFO 3376 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 19:07:32,513 INFO 3376 [egg-multipart] stream mode enable
+2019-05-25 19:07:32,702 INFO 3376 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 19:07:32,708 INFO 3376 [egg-security] use csrf middleware
+2019-05-25 19:07:32,712 INFO 3376 [egg-security] use methodnoallow middleware
+2019-05-25 19:07:32,713 INFO 3376 [egg-security] use noopen middleware
+2019-05-25 19:07:32,715 INFO 3376 [egg-security] use nosniff middleware
+2019-05-25 19:07:32,717 INFO 3376 [egg-security] use xssProtection middleware
+2019-05-25 19:07:32,718 INFO 3376 [egg-security] use xframe middleware
+2019-05-25 19:07:32,719 INFO 3376 [egg-security] use dta middleware
+2019-05-25 19:07:32,719 INFO 3376 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 19:07:32,749 INFO 3376 [egg:core] dump config after load, 20ms
+2019-05-25 19:07:32,776 INFO 3376 [egg-watcher:application] watcher start success
+2019-05-25 19:07:32,796 INFO 3376 [egg:core] dump config after ready, 15ms
+2019-05-25 19:17:29,048 INFO 8576 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 19:17:29,125 INFO 8576 [egg-multipart] stream mode enable
+2019-05-25 19:17:29,300 INFO 8576 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 19:17:29,306 INFO 8576 [egg-security] use csrf middleware
+2019-05-25 19:17:29,310 INFO 8576 [egg-security] use methodnoallow middleware
+2019-05-25 19:17:29,311 INFO 8576 [egg-security] use noopen middleware
+2019-05-25 19:17:29,314 INFO 8576 [egg-security] use nosniff middleware
+2019-05-25 19:17:29,316 INFO 8576 [egg-security] use xssProtection middleware
+2019-05-25 19:17:29,318 INFO 8576 [egg-security] use xframe middleware
+2019-05-25 19:17:29,319 INFO 8576 [egg-security] use dta middleware
+2019-05-25 19:17:29,319 INFO 8576 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 19:17:29,346 INFO 8576 [egg:core] dump config after load, 16ms
+2019-05-25 19:17:29,375 INFO 8576 [egg-watcher:application] watcher start success
+2019-05-25 19:17:29,394 INFO 8576 [egg:core] dump config after ready, 14ms
+2019-05-25 19:33:06,136 INFO 2020 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 19:33:06,220 INFO 2020 [egg-multipart] stream mode enable
+2019-05-25 19:33:07,366 INFO 2020 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 19:33:07,386 INFO 2020 [egg-security] use csrf middleware
+2019-05-25 19:33:07,393 INFO 2020 [egg-security] use methodnoallow middleware
+2019-05-25 19:33:07,396 INFO 2020 [egg-security] use noopen middleware
+2019-05-25 19:33:07,402 INFO 2020 [egg-security] use nosniff middleware
+2019-05-25 19:33:07,405 INFO 2020 [egg-security] use xssProtection middleware
+2019-05-25 19:33:07,408 INFO 2020 [egg-security] use xframe middleware
+2019-05-25 19:33:07,412 INFO 2020 [egg-security] use dta middleware
+2019-05-25 19:33:07,412 INFO 2020 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 19:33:07,499 INFO 2020 [egg:core] dump config after load, 35ms
+2019-05-25 19:33:07,548 INFO 2020 [egg-watcher:application] watcher start success
+2019-05-25 19:33:07,572 INFO 2020 [egg:core] dump config after ready, 19ms
+2019-05-25 19:52:14,476 INFO 5832 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 19:52:14,568 INFO 5832 [egg-multipart] stream mode enable
+2019-05-25 19:52:14,721 INFO 5832 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 19:52:14,727 INFO 5832 [egg-security] use csrf middleware
+2019-05-25 19:52:14,729 INFO 5832 [egg-security] use methodnoallow middleware
+2019-05-25 19:52:14,730 INFO 5832 [egg-security] use noopen middleware
+2019-05-25 19:52:14,734 INFO 5832 [egg-security] use nosniff middleware
+2019-05-25 19:52:14,736 INFO 5832 [egg-security] use xssProtection middleware
+2019-05-25 19:52:14,737 INFO 5832 [egg-security] use xframe middleware
+2019-05-25 19:52:14,738 INFO 5832 [egg-security] use dta middleware
+2019-05-25 19:52:14,738 INFO 5832 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 19:52:20,508 INFO 5832 [egg:core] dump config after load, 18ms
+2019-05-25 19:52:20,536 INFO 5832 [egg-watcher:application] watcher start success
+2019-05-25 19:52:20,568 INFO 5832 [egg:core] dump config after ready, 29ms
+2019-05-25 19:52:59,020 INFO 9576 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 19:52:59,102 INFO 9576 [egg-multipart] stream mode enable
+2019-05-25 19:52:59,313 INFO 9576 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 19:52:59,321 INFO 9576 [egg-security] use csrf middleware
+2019-05-25 19:52:59,324 INFO 9576 [egg-security] use methodnoallow middleware
+2019-05-25 19:52:59,325 INFO 9576 [egg-security] use noopen middleware
+2019-05-25 19:52:59,328 INFO 9576 [egg-security] use nosniff middleware
+2019-05-25 19:52:59,329 INFO 9576 [egg-security] use xssProtection middleware
+2019-05-25 19:52:59,330 INFO 9576 [egg-security] use xframe middleware
+2019-05-25 19:52:59,331 INFO 9576 [egg-security] use dta middleware
+2019-05-25 19:52:59,331 INFO 9576 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 19:53:03,236 INFO 9576 [egg:core] dump config after load, 22ms
+2019-05-25 19:53:03,267 INFO 9576 [egg-watcher:application] watcher start success
+2019-05-25 19:53:03,303 INFO 9576 [egg:core] dump config after ready, 31ms
+2019-05-25 19:53:23,601 INFO 10804 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 19:53:23,677 INFO 10804 [egg-multipart] stream mode enable
+2019-05-25 19:53:23,837 INFO 10804 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 19:53:23,843 INFO 10804 [egg-security] use csrf middleware
+2019-05-25 19:53:23,846 INFO 10804 [egg-security] use methodnoallow middleware
+2019-05-25 19:53:23,847 INFO 10804 [egg-security] use noopen middleware
+2019-05-25 19:53:23,850 INFO 10804 [egg-security] use nosniff middleware
+2019-05-25 19:53:23,852 INFO 10804 [egg-security] use xssProtection middleware
+2019-05-25 19:53:23,853 INFO 10804 [egg-security] use xframe middleware
+2019-05-25 19:53:23,854 INFO 10804 [egg-security] use dta middleware
+2019-05-25 19:53:23,854 INFO 10804 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 19:53:23,942 INFO 10804 [egg:core] dump config after load, 77ms
+2019-05-25 19:53:23,967 INFO 10804 [egg-watcher:application] watcher start success
+2019-05-25 19:53:23,996 INFO 10804 [egg:core] dump config after ready, 26ms
+2019-05-25 19:57:22,830 INFO 2980 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 19:57:22,907 INFO 2980 [egg-multipart] stream mode enable
+2019-05-25 19:57:23,066 INFO 2980 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 19:57:23,074 INFO 2980 [egg-security] use csrf middleware
+2019-05-25 19:57:23,078 INFO 2980 [egg-security] use methodnoallow middleware
+2019-05-25 19:57:23,079 INFO 2980 [egg-security] use noopen middleware
+2019-05-25 19:57:23,082 INFO 2980 [egg-security] use nosniff middleware
+2019-05-25 19:57:23,083 INFO 2980 [egg-security] use xssProtection middleware
+2019-05-25 19:57:23,085 INFO 2980 [egg-security] use xframe middleware
+2019-05-25 19:57:23,086 INFO 2980 [egg-security] use dta middleware
+2019-05-25 19:57:23,086 INFO 2980 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 19:57:23,124 INFO 2980 [egg:core] dump config after load, 27ms
+2019-05-25 19:57:23,151 INFO 2980 [egg-watcher:application] watcher start success
+2019-05-25 19:57:23,171 INFO 2980 [egg:core] dump config after ready, 16ms
+2019-05-25 20:06:55,198 INFO 2992 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 20:06:55,281 INFO 2992 [egg-multipart] stream mode enable
+2019-05-25 20:06:55,448 INFO 2992 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 20:06:55,458 INFO 2992 [egg-security] use csrf middleware
+2019-05-25 20:06:55,462 INFO 2992 [egg-security] use methodnoallow middleware
+2019-05-25 20:06:55,463 INFO 2992 [egg-security] use noopen middleware
+2019-05-25 20:06:55,466 INFO 2992 [egg-security] use nosniff middleware
+2019-05-25 20:06:55,468 INFO 2992 [egg-security] use xssProtection middleware
+2019-05-25 20:06:55,469 INFO 2992 [egg-security] use xframe middleware
+2019-05-25 20:06:55,470 INFO 2992 [egg-security] use dta middleware
+2019-05-25 20:06:55,470 INFO 2992 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 20:06:55,500 INFO 2992 [egg:core] dump config after load, 19ms
+2019-05-25 20:06:55,531 INFO 2992 [egg-watcher:application] watcher start success
+2019-05-25 20:06:55,553 INFO 2992 [egg:core] dump config after ready, 17ms
+2019-05-25 20:08:00,206 INFO 7108 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 20:08:00,288 INFO 7108 [egg-multipart] stream mode enable
+2019-05-25 20:08:00,494 INFO 7108 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 20:08:00,504 INFO 7108 [egg-security] use csrf middleware
+2019-05-25 20:08:00,508 INFO 7108 [egg-security] use methodnoallow middleware
+2019-05-25 20:08:00,510 INFO 7108 [egg-security] use noopen middleware
+2019-05-25 20:08:00,513 INFO 7108 [egg-security] use nosniff middleware
+2019-05-25 20:08:00,515 INFO 7108 [egg-security] use xssProtection middleware
+2019-05-25 20:08:00,517 INFO 7108 [egg-security] use xframe middleware
+2019-05-25 20:08:00,519 INFO 7108 [egg-security] use dta middleware
+2019-05-25 20:08:00,519 INFO 7108 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 20:08:00,554 INFO 7108 [egg:core] dump config after load, 20ms
+2019-05-25 20:08:00,584 INFO 7108 [egg-watcher:application] watcher start success
+2019-05-25 20:08:00,607 INFO 7108 [egg:core] dump config after ready, 19ms
+2019-05-25 20:08:12,017 INFO 9464 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 20:08:12,118 INFO 9464 [egg-multipart] stream mode enable
+2019-05-25 20:08:12,324 INFO 9464 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 20:08:12,332 INFO 9464 [egg-security] use csrf middleware
+2019-05-25 20:08:12,337 INFO 9464 [egg-security] use methodnoallow middleware
+2019-05-25 20:08:12,339 INFO 9464 [egg-security] use noopen middleware
+2019-05-25 20:08:12,343 INFO 9464 [egg-security] use nosniff middleware
+2019-05-25 20:08:12,344 INFO 9464 [egg-security] use xssProtection middleware
+2019-05-25 20:08:12,346 INFO 9464 [egg-security] use xframe middleware
+2019-05-25 20:08:12,348 INFO 9464 [egg-security] use dta middleware
+2019-05-25 20:08:12,348 INFO 9464 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 20:08:12,384 INFO 9464 [egg:core] dump config after load, 22ms
+2019-05-25 20:08:12,412 INFO 9464 [egg-watcher:application] watcher start success
+2019-05-25 20:08:12,433 INFO 9464 [egg:core] dump config after ready, 17ms
+2019-05-25 20:41:20,961 INFO 3588 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 20:41:21,061 INFO 3588 [egg-multipart] stream mode enable
+2019-05-25 20:41:21,821 INFO 3588 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 20:41:21,847 INFO 3588 [egg-security] use csrf middleware
+2019-05-25 20:41:21,851 INFO 3588 [egg-security] use methodnoallow middleware
+2019-05-25 20:41:21,853 INFO 3588 [egg-security] use noopen middleware
+2019-05-25 20:41:21,857 INFO 3588 [egg-security] use nosniff middleware
+2019-05-25 20:41:21,859 INFO 3588 [egg-security] use xssProtection middleware
+2019-05-25 20:41:21,861 INFO 3588 [egg-security] use xframe middleware
+2019-05-25 20:41:21,863 INFO 3588 [egg-security] use dta middleware
+2019-05-25 20:41:21,863 INFO 3588 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 20:41:21,948 INFO 3588 [egg:core] dump config after load, 18ms
+2019-05-25 20:41:21,981 INFO 3588 [egg-watcher:application] watcher start success
+2019-05-25 20:41:22,003 INFO 3588 [egg:core] dump config after ready, 18ms
+2019-05-25 21:22:56,334 INFO 8480 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 21:22:56,440 INFO 8480 [egg-multipart] stream mode enable
+2019-05-25 21:22:57,289 INFO 8480 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 21:22:57,315 INFO 8480 [egg-security] use csrf middleware
+2019-05-25 21:22:57,318 INFO 8480 [egg-security] use methodnoallow middleware
+2019-05-25 21:22:57,319 INFO 8480 [egg-security] use noopen middleware
+2019-05-25 21:22:57,323 INFO 8480 [egg-security] use nosniff middleware
+2019-05-25 21:22:57,326 INFO 8480 [egg-security] use xssProtection middleware
+2019-05-25 21:22:57,329 INFO 8480 [egg-security] use xframe middleware
+2019-05-25 21:22:57,332 INFO 8480 [egg-security] use dta middleware
+2019-05-25 21:22:57,332 INFO 8480 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 21:22:57,451 INFO 8480 [egg:core] dump config after load, 20ms
+2019-05-25 21:22:57,485 INFO 8480 [egg-watcher:application] watcher start success
+2019-05-25 21:22:57,512 INFO 8480 [egg:core] dump config after ready, 23ms
+2019-05-25 21:23:11,287 INFO 6248 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 21:23:11,376 INFO 6248 [egg-multipart] stream mode enable
+2019-05-25 21:23:11,582 INFO 6248 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 21:23:11,589 INFO 6248 [egg-security] use csrf middleware
+2019-05-25 21:23:11,592 INFO 6248 [egg-security] use methodnoallow middleware
+2019-05-25 21:23:11,593 INFO 6248 [egg-security] use noopen middleware
+2019-05-25 21:23:11,597 INFO 6248 [egg-security] use nosniff middleware
+2019-05-25 21:23:11,598 INFO 6248 [egg-security] use xssProtection middleware
+2019-05-25 21:23:11,600 INFO 6248 [egg-security] use xframe middleware
+2019-05-25 21:23:11,601 INFO 6248 [egg-security] use dta middleware
+2019-05-25 21:23:11,601 INFO 6248 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 21:23:11,631 INFO 6248 [egg:core] dump config after load, 17ms
+2019-05-25 21:23:11,655 INFO 6248 [egg-watcher:application] watcher start success
+2019-05-25 21:23:11,674 INFO 6248 [egg:core] dump config after ready, 15ms
+2019-05-25 22:33:59,951 INFO 1804 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 22:34:00,417 INFO 1804 [egg-multipart] stream mode enable
+2019-05-25 22:34:01,462 INFO 1804 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 22:34:01,488 INFO 1804 [egg-security] use csrf middleware
+2019-05-25 22:34:01,503 INFO 1804 [egg-security] use methodnoallow middleware
+2019-05-25 22:34:01,505 INFO 1804 [egg-security] use noopen middleware
+2019-05-25 22:34:01,509 INFO 1804 [egg-security] use nosniff middleware
+2019-05-25 22:34:01,511 INFO 1804 [egg-security] use xssProtection middleware
+2019-05-25 22:34:01,513 INFO 1804 [egg-security] use xframe middleware
+2019-05-25 22:34:01,515 INFO 1804 [egg-security] use dta middleware
+2019-05-25 22:34:01,516 INFO 1804 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 22:34:01,636 INFO 1804 [egg:core] dump config after load, 43ms
+2019-05-25 22:34:01,667 INFO 1804 [egg-watcher:application] watcher start success
+2019-05-25 22:34:01,711 INFO 1804 [egg:core] dump config after ready, 38ms
+2019-05-25 22:34:06,900 INFO 7152 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-25 22:34:06,972 INFO 7152 [egg-multipart] stream mode enable
+2019-05-25 22:34:07,153 INFO 7152 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
+2019-05-25 22:34:07,161 INFO 7152 [egg-security] use csrf middleware
+2019-05-25 22:34:07,163 INFO 7152 [egg-security] use methodnoallow middleware
+2019-05-25 22:34:07,164 INFO 7152 [egg-security] use noopen middleware
+2019-05-25 22:34:07,167 INFO 7152 [egg-security] use nosniff middleware
+2019-05-25 22:34:07,168 INFO 7152 [egg-security] use xssProtection middleware
+2019-05-25 22:34:07,169 INFO 7152 [egg-security] use xframe middleware
+2019-05-25 22:34:07,170 INFO 7152 [egg-security] use dta middleware
+2019-05-25 22:34:07,170 INFO 7152 [egg-security] compose 7 middlewares into one security middleware
+2019-05-25 22:34:07,203 INFO 7152 [egg:core] dump config after load, 21ms
+2019-05-25 22:34:07,233 INFO 7152 [egg-watcher:application] watcher start success
+2019-05-25 22:34:07,266 INFO 7152 [egg:core] dump config after ready, 30ms
