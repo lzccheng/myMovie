@@ -15,3 +15,7 @@
 .marTop {
 	margin-top: 10px;
 }
+.item_img {
+	max-height: 300px;
+	overflow-y: hidden;
+}

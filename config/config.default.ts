@@ -28,5 +28,12 @@ export default function(app: EggAppConfig) {
     layout: path.join(app.baseDir, 'app/web/view/layout.html')
   };
 
+  exports.mongoose = {
+    url: 'mongodb://127.0.0.1/test',
+    options: {},
+    // mongoose global plugins, expected a function or an array of function and options
+    // plugins: [createdPlugin, [updatedPlugin, pluginOptions]],
+  };
+
   return exports;
 }

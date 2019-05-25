@@ -13,8 +13,9 @@ export default class Detail extends Component {
 			}
 		}
 	}
-	handleClick() {
-		if(copy(this.state.data.link)){
+	handleClick(text) {
+		console.log(9999, text)
+		if(copy(text)){
 		    message.success('复制成功！');
 		}else{
 		    message.error('复制失败！');
@@ -25,33 +26,28 @@ export default class Detail extends Component {
 			<Header></Header>
 			<div className="container">
 				<div className="row">
-					<div className="col detail_top">首页 / 详情</div>
+					<div className="col detail_top"><a href="/">首页</a> / 详情</div>
 				</div>
 				<div className="row">
-					<h4 className="col text-center">电影</h4>
+					<h4 className="col text-center">{this.props.data.info.title}</h4>
 				</div>
 				<div className="row text-center">
 					<div className="col text-center">
-						<img width="80%" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558797636017&di=b413291da25f2cf75afcf5b4baf81b43&imgtype=0&src=http%3A%2F%2F00.minipic.eastday.com%2F20170417%2F20170417094946_fbdb8481e5cff58cfa1e522ccf577566_5.jpeg" />
+						<img width="80%" src={this.props.data.info.poster} />
 					</div>
 				</div>
 				<div className="row introduce">
-					<div className="introduce">
-						<span>电影名：</span>
-						<span>啊啊撒旦发阿斯顿发生</span>
-					</div>
-					<div className="introduce">
-						<span>电影名：</span>
-						<span>啊啊撒旦发阿斯顿发生</span>
-					</div>
-					<div className="introduce">
-						<span>电影名：</span>
-						<span>啊啊撒旦发阿斯顿发生</span>
-					</div>
+					{this.props.data.info.introduction.map((item, i) => {
+						return (<div key={i} className="introduce">
+						  {item}
+					  </div>)
+					})}
 				</div>
 				<div className="row text-center">
 					<div className="col text-center">
-						<img width="80%" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558797636017&di=b413291da25f2cf75afcf5b4baf81b43&imgtype=0&src=http%3A%2F%2F00.minipic.eastday.com%2F20170417%2F20170417094946_fbdb8481e5cff58cfa1e522ccf577566_5.jpeg" />
+						{this.props.data.info.imgs.map((item, i) => {
+							return <img width="80%" key={i} src={item}/>
+						})}
 					</div>
 				</div>
 				<div className="row link">
@@ -59,9 +55,9 @@ export default class Detail extends Component {
 						链接：
 					</div>
 					<div className="col-auto line">
-						{this.state.data.link}
+						{this.props.data.info.ftpUrl}
 					</div>
-					<Button onClick={this.handleClick.bind(this)} className="align-self-end" type="primary">复制</Button>
+					<Button onClick={this.handleClick.bind(this, this.props.data.info.ftpUrl)} className="align-self-end" type="primary">复制</Button>
 				</div>
 			</div>
 		</div>)

@@ -8,7 +8,7 @@ import Detail from './component/Detail';
 class App extends Component<TabProps, any> {
   render() {
     return <Layout {...this.props}>
-    	<Detail />
+    	<Detail {...this.props}/>
     </Layout>;
   }
 }
@@ -28,4 +28,5 @@ function bootstrap() {
   ReactDOM.hydrate(<Detail {...state} />, root);
 }
 
-export default bootstrap();
+// export default bootstrap();
+export default App;

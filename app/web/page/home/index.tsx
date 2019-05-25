@@ -30,4 +30,5 @@ function bootstrap() {
   ReactDOM.hydrate(<Tab {...state} />, root);
 }
 
-export default bootstrap();
+// export default bootstrap();
+export default App;

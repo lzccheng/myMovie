@@ -44,7 +44,7 @@ export class Tab extends Component<TabProps, any> {
     }
   }
   componentDidMount() {
-    // console.log(this.state)
+    console.log(this.props)
   }
   render() {
     return <div>
@@ -53,7 +53,7 @@ export class Tab extends Component<TabProps, any> {
         <div className="row justify-content-between">
           <div className="col-md-9 col-lg-9">
             <Top text={'视频：'}/>
-            <List list={this.state.list}/>
+            <List list={this.props.data}/>
           </div>
           <div className="col-md-3 col-lg-3 hidden-xs hidden-sm">
             <Top text={'分类：'}/>

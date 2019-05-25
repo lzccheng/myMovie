@@ -1,19 +1,7 @@
-2019-05-24 23:29:08,627 INFO 628 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-24 23:29:08,658 INFO 628 [egg-multipart] stream mode enable
-2019-05-24 23:29:10,864 INFO 628 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/myMovie/public
-2019-05-24 23:29:10,867 INFO 628 [egg-security] use csrf middleware
-2019-05-24 23:29:10,867 INFO 628 [egg-security] use methodnoallow middleware
-2019-05-24 23:29:10,868 INFO 628 [egg-security] use noopen middleware
-2019-05-24 23:29:10,868 INFO 628 [egg-security] use nosniff middleware
-2019-05-24 23:29:10,869 INFO 628 [egg-security] use xssProtection middleware
-2019-05-24 23:29:10,869 INFO 628 [egg-security] use xframe middleware
-2019-05-24 23:29:10,869 INFO 628 [egg-security] use dta middleware
-2019-05-24 23:29:10,869 INFO 628 [egg-security] compose 7 middlewares into one security middleware
-2019-05-24 23:29:10,910 INFO 628 [egg:core] dump config after load, 6ms
-2019-05-24 23:29:10,930 INFO 628 [egg-watcher:application] watcher start success
-2019-05-24 23:29:10,949 INFO 628 [egg:core] dump config after ready, 14ms
-2019-05-24 23:29:19,561 ERROR 628 nodejs.unhandledRejectionError: Exited with code 3
-    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+2019-05-26 00:00:01,017 INFO 2349 [egg-logrotator] app logger reload: got log-reload message
+2019-05-26 00:00:02,283 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:00:20,081 ERROR 2349 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
     at Object.onceWrapper (events.js:317:30)
     at emitTwo (events.js:126:13)
     at ChildProcess.emit (events.js:214:7)
@@ -23,26 +11,12 @@
     at Socket.emit (events.js:211:7)
     at Pipe._handle.close [as _onclose] (net.js:561:12)
 name: "unhandledRejectionError"
-pid: 628
+pid: 2349
 hostname: coding.ide
 
-2019-05-24 23:29:58,212 INFO 819 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-24 23:29:58,243 INFO 819 [egg-multipart] stream mode enable
-2019-05-24 23:29:58,280 INFO 819 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/myMovie/public
-2019-05-24 23:29:58,282 INFO 819 [egg-security] use csrf middleware
-2019-05-24 23:29:58,283 INFO 819 [egg-security] use methodnoallow middleware
-2019-05-24 23:29:58,283 INFO 819 [egg-security] use noopen middleware
-2019-05-24 23:29:58,284 INFO 819 [egg-security] use nosniff middleware
-2019-05-24 23:29:58,284 INFO 819 [egg-security] use xssProtection middleware
-2019-05-24 23:29:58,284 INFO 819 [egg-security] use xframe middleware
-2019-05-24 23:29:58,285 INFO 819 [egg-security] use dta middleware
-2019-05-24 23:29:58,285 INFO 819 [egg-security] compose 7 middlewares into one security middleware
-2019-05-24 23:29:58,294 INFO 819 [egg:core] dump config after load, 6ms
-2019-05-24 23:29:58,358 INFO 819 [egg-watcher:application] watcher start success
-2019-05-24 23:29:58,367 INFO 819 [egg:core] dump config after ready, 6ms
-2019-05-24 23:30:02,009 WARN 819 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-24 23:30:11,724 ERROR 819 nodejs.unhandledRejectionError: Exited with code 3
-    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+2019-05-26 00:01:01,590 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:01:15,060 ERROR 2349 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
     at Object.onceWrapper (events.js:317:30)
     at emitTwo (events.js:126:13)
     at ChildProcess.emit (events.js:214:7)
@@ -52,25 +26,60 @@ hostname: coding.ide
     at Socket.emit (events.js:211:7)
     at Pipe._handle.close [as _onclose] (net.js:561:12)
 name: "unhandledRejectionError"
-pid: 819
+pid: 2349
 hostname: coding.ide
 
-2019-05-24 23:30:39,458 INFO 1081 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-24 23:30:39,489 INFO 1081 [egg-multipart] stream mode enable
-2019-05-24 23:30:39,526 INFO 1081 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/myMovie/public
-2019-05-24 23:30:39,528 INFO 1081 [egg-security] use csrf middleware
-2019-05-24 23:30:39,529 INFO 1081 [egg-security] use methodnoallow middleware
-2019-05-24 23:30:39,529 INFO 1081 [egg-security] use noopen middleware
-2019-05-24 23:30:39,530 INFO 1081 [egg-security] use nosniff middleware
-2019-05-24 23:30:39,530 INFO 1081 [egg-security] use xssProtection middleware
-2019-05-24 23:30:39,530 INFO 1081 [egg-security] use xframe middleware
-2019-05-24 23:30:39,530 INFO 1081 [egg-security] use dta middleware
-2019-05-24 23:30:39,530 INFO 1081 [egg-security] compose 7 middlewares into one security middleware
-2019-05-24 23:30:39,540 INFO 1081 [egg:core] dump config after load, 6ms
-2019-05-24 23:30:39,619 INFO 1081 [egg-watcher:application] watcher start success
-2019-05-24 23:30:39,627 INFO 1081 [egg:core] dump config after ready, 5ms
-2019-05-24 23:30:46,031 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
-    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+2019-05-26 00:02:01,457 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:03:02,069 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:04:01,504 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:05:02,118 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:06:01,668 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:07:02,232 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:08:01,733 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:09:01,295 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:10:01,876 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:11:01,398 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:12:02,092 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:13:01,545 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:14:02,185 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:15:01,709 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:16:01,276 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:17:01,806 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:18:01,333 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:19:01,856 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:20:01,370 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:21:01,502 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:22:01,477 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:23:01,934 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:24:01,422 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:25:01,879 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:26:01,460 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:27:02,004 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:28:01,504 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:29:02,048 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:30:01,540 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:31:02,084 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:32:01,505 WARN 2349 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:33:11,860 INFO 13108 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 00:33:11,900 INFO 13108 [egg-multipart] stream mode enable
+2019-05-26 00:33:12,832 INFO 13108 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 00:33:12,948 INFO 13108 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 00:33:12,952 INFO 13108 [egg-security] use csrf middleware
+2019-05-26 00:33:12,953 INFO 13108 [egg-security] use methodnoallow middleware
+2019-05-26 00:33:12,955 INFO 13108 [egg-security] use noopen middleware
+2019-05-26 00:33:12,955 INFO 13108 [egg-security] use nosniff middleware
+2019-05-26 00:33:12,955 INFO 13108 [egg-security] use xssProtection middleware
+2019-05-26 00:33:12,955 INFO 13108 [egg-security] use xframe middleware
+2019-05-26 00:33:12,956 INFO 13108 [egg-security] use dta middleware
+2019-05-26 00:33:12,956 INFO 13108 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 00:33:12,968 INFO 13108 [egg:core] dump config after load, 4ms
+2019-05-26 00:33:12,975 INFO 13108 [egg-mongoose] starting...
+2019-05-26 00:33:13,024 INFO 13108 [egg-watcher:application] watcher start success
+2019-05-26 00:33:13,029 INFO 13108 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 00:33:13,029 INFO 13108 [egg-mongoose] instance[0] start successfully
+2019-05-26 00:33:13,052 INFO 13108 [egg:core] dump config after ready, 16ms
+2019-05-26 00:33:22,392 ERROR 13108 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
     at Object.onceWrapper (events.js:317:30)
     at emitTwo (events.js:126:13)
     at ChildProcess.emit (events.js:214:7)
@@ -80,12 +89,12 @@ hostname: coding.ide
     at Socket.emit (events.js:211:7)
     at Pipe._handle.close [as _onclose] (net.js:561:12)
 name: "unhandledRejectionError"
-pid: 1081
+pid: 13108
 hostname: coding.ide
 
-2019-05-24 23:31:01,335 WARN 1081 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-24 23:31:10,360 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
-    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+2019-05-26 00:34:01,572 WARN 13108 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:34:13,588 ERROR 13108 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
     at Object.onceWrapper (events.js:317:30)
     at emitTwo (events.js:126:13)
     at ChildProcess.emit (events.js:214:7)
@@ -95,12 +104,12 @@ hostname: coding.ide
     at Socket.emit (events.js:211:7)
     at Pipe._handle.close [as _onclose] (net.js:561:12)
 name: "unhandledRejectionError"
-pid: 1081
+pid: 13108
 hostname: coding.ide
 
-2019-05-24 23:32:01,756 WARN 1081 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-24 23:32:11,334 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
-    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+2019-05-26 00:35:02,274 WARN 13108 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:35:14,036 ERROR 13108 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
     at Object.onceWrapper (events.js:317:30)
     at emitTwo (events.js:126:13)
     at ChildProcess.emit (events.js:214:7)
@@ -110,12 +119,13 @@ hostname: coding.ide
     at Socket.emit (events.js:211:7)
     at Pipe._handle.close [as _onclose] (net.js:561:12)
 name: "unhandledRejectionError"
-pid: 1081
+pid: 13108
 hostname: coding.ide
 
-2019-05-24 23:33:02,142 WARN 1081 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-24 23:33:15,205 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
-    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+2019-05-26 00:36:01,644 WARN 13108 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:37:02,168 WARN 13108 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:37:15,141 ERROR 13108 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
     at Object.onceWrapper (events.js:317:30)
     at emitTwo (events.js:126:13)
     at ChildProcess.emit (events.js:214:7)
@@ -125,12 +135,12 @@ hostname: coding.ide
     at Socket.emit (events.js:211:7)
     at Pipe._handle.close [as _onclose] (net.js:561:12)
 name: "unhandledRejectionError"
-pid: 1081
+pid: 13108
 hostname: coding.ide
 
-2019-05-24 23:34:01,567 WARN 1081 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-24 23:34:11,530 ERROR 1081 nodejs.unhandledRejectionError: Exited with code 3
-    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+2019-05-26 00:38:01,714 WARN 13108 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:38:14,129 ERROR 13108 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
     at Object.onceWrapper (events.js:317:30)
     at emitTwo (events.js:126:13)
     at ChildProcess.emit (events.js:214:7)
@@ -140,28 +150,32 @@ hostname: coding.ide
     at Socket.emit (events.js:211:7)
     at Pipe._handle.close [as _onclose] (net.js:561:12)
 name: "unhandledRejectionError"
-pid: 1081
+pid: 13108
 hostname: coding.ide
 
-2019-05-24 23:35:01,974 WARN 1081 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-24 23:36:01,381 WARN 1081 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-24 23:37:01,782 WARN 1081 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-24 23:37:44,882 INFO 2748 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-24 23:37:44,913 INFO 2748 [egg-multipart] stream mode enable
-2019-05-24 23:37:44,952 INFO 2748 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/myMovie/public
-2019-05-24 23:37:44,954 INFO 2748 [egg-security] use csrf middleware
-2019-05-24 23:37:44,955 INFO 2748 [egg-security] use methodnoallow middleware
-2019-05-24 23:37:44,955 INFO 2748 [egg-security] use noopen middleware
-2019-05-24 23:37:44,955 INFO 2748 [egg-security] use nosniff middleware
-2019-05-24 23:37:44,956 INFO 2748 [egg-security] use xssProtection middleware
-2019-05-24 23:37:44,956 INFO 2748 [egg-security] use xframe middleware
-2019-05-24 23:37:44,956 INFO 2748 [egg-security] use dta middleware
-2019-05-24 23:37:44,956 INFO 2748 [egg-security] compose 7 middlewares into one security middleware
-2019-05-24 23:37:44,967 INFO 2748 [egg:core] dump config after load, 6ms
-2019-05-24 23:37:45,027 INFO 2748 [egg-watcher:application] watcher start success
-2019-05-24 23:37:45,040 INFO 2748 [egg:core] dump config after ready, 10ms
-2019-05-24 23:37:51,685 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
-    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+2019-05-26 00:39:02,200 WARN 13108 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:40:01,772 WARN 13108 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:41:01,876 WARN 13108 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:41:25,992 INFO 15235 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 00:41:26,032 INFO 15235 [egg-multipart] stream mode enable
+2019-05-26 00:41:26,356 INFO 15235 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 00:41:26,420 INFO 15235 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 00:41:26,420 INFO 15235 [egg-security] use csrf middleware
+2019-05-26 00:41:26,424 INFO 15235 [egg-security] use methodnoallow middleware
+2019-05-26 00:41:26,424 INFO 15235 [egg-security] use noopen middleware
+2019-05-26 00:41:26,424 INFO 15235 [egg-security] use nosniff middleware
+2019-05-26 00:41:26,424 INFO 15235 [egg-security] use xssProtection middleware
+2019-05-26 00:41:26,424 INFO 15235 [egg-security] use xframe middleware
+2019-05-26 00:41:26,424 INFO 15235 [egg-security] use dta middleware
+2019-05-26 00:41:26,424 INFO 15235 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 00:41:26,437 INFO 15235 [egg:core] dump config after load, 5ms
+2019-05-26 00:41:26,440 INFO 15235 [egg-mongoose] starting...
+2019-05-26 00:41:26,470 INFO 15235 [egg-watcher:application] watcher start success
+2019-05-26 00:41:26,476 INFO 15235 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 00:41:26,476 INFO 15235 [egg-mongoose] instance[0] start successfully
+2019-05-26 00:41:26,496 INFO 15235 [egg:core] dump config after ready, 16ms
+2019-05-26 00:41:34,944 ERROR 15235 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
     at Object.onceWrapper (events.js:317:30)
     at emitTwo (events.js:126:13)
     at ChildProcess.emit (events.js:214:7)
@@ -171,12 +185,12 @@ hostname: coding.ide
     at Socket.emit (events.js:211:7)
     at Pipe._handle.close [as _onclose] (net.js:561:12)
 name: "unhandledRejectionError"
-pid: 2748
+pid: 15235
 hostname: coding.ide
 
-2019-05-24 23:38:02,210 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-24 23:38:11,718 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
-    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+2019-05-26 00:42:01,798 WARN 15235 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:42:12,884 ERROR 15235 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
     at Object.onceWrapper (events.js:317:30)
     at emitTwo (events.js:126:13)
     at ChildProcess.emit (events.js:214:7)
@@ -186,12 +200,13 @@ hostname: coding.ide
     at Socket.emit (events.js:211:7)
     at Pipe._handle.close [as _onclose] (net.js:561:12)
 name: "unhandledRejectionError"
-pid: 2748
+pid: 15235
 hostname: coding.ide
 
-2019-05-24 23:39:01,577 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-24 23:39:10,731 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
-    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+2019-05-26 00:43:01,426 WARN 15235 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:44:01,881 WARN 15235 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:44:13,588 ERROR 15235 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
     at Object.onceWrapper (events.js:317:30)
     at emitTwo (events.js:126:13)
     at ChildProcess.emit (events.js:214:7)
@@ -201,12 +216,13 @@ hostname: coding.ide
     at Socket.emit (events.js:211:7)
     at Pipe._handle.close [as _onclose] (net.js:561:12)
 name: "unhandledRejectionError"
-pid: 2748
+pid: 15235
 hostname: coding.ide
 
-2019-05-24 23:40:02,034 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-24 23:40:11,859 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
-    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+2019-05-26 00:45:01,444 WARN 15235 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:46:02,029 WARN 15235 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:46:14,368 ERROR 15235 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
     at Object.onceWrapper (events.js:317:30)
     at emitTwo (events.js:126:13)
     at ChildProcess.emit (events.js:214:7)
@@ -216,12 +232,30 @@ hostname: coding.ide
     at Socket.emit (events.js:211:7)
     at Pipe._handle.close [as _onclose] (net.js:561:12)
 name: "unhandledRejectionError"
-pid: 2748
+pid: 15235
 hostname: coding.ide
 
-2019-05-24 23:41:02,138 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-24 23:41:11,814 ERROR 2748 nodejs.unhandledRejectionError: Exited with code 3
-    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/myMovie/node_modules/opn/index.js:85:13)
+2019-05-26 00:47:01,558 WARN 15235 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:47:44,472 INFO 16697 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 00:47:44,503 INFO 16697 [egg-multipart] stream mode enable
+2019-05-26 00:47:44,849 INFO 16697 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 00:47:44,897 INFO 16697 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 00:47:44,900 INFO 16697 [egg-security] use csrf middleware
+2019-05-26 00:47:44,900 INFO 16697 [egg-security] use methodnoallow middleware
+2019-05-26 00:47:44,900 INFO 16697 [egg-security] use noopen middleware
+2019-05-26 00:47:44,900 INFO 16697 [egg-security] use nosniff middleware
+2019-05-26 00:47:44,900 INFO 16697 [egg-security] use xssProtection middleware
+2019-05-26 00:47:44,900 INFO 16697 [egg-security] use xframe middleware
+2019-05-26 00:47:44,900 INFO 16697 [egg-security] use dta middleware
+2019-05-26 00:47:44,900 INFO 16697 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 00:47:44,912 INFO 16697 [egg:core] dump config after load, 4ms
+2019-05-26 00:47:44,917 INFO 16697 [egg-mongoose] starting...
+2019-05-26 00:47:44,944 INFO 16697 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 00:47:44,944 INFO 16697 [egg-mongoose] instance[0] start successfully
+2019-05-26 00:47:44,952 INFO 16697 [egg-watcher:application] watcher start success
+2019-05-26 00:47:44,970 INFO 16697 [egg:core] dump config after ready, 12ms
+2019-05-26 00:47:53,196 ERROR 16697 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
     at Object.onceWrapper (events.js:317:30)
     at emitTwo (events.js:126:13)
     at ChildProcess.emit (events.js:214:7)
@@ -231,286 +265,1006 @@ hostname: coding.ide
     at Socket.emit (events.js:211:7)
     at Pipe._handle.close [as _onclose] (net.js:561:12)
 name: "unhandledRejectionError"
-pid: 2748
+pid: 16697
 hostname: coding.ide
 
-2019-05-24 23:42:01,937 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-24 23:43:01,334 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-24 23:44:01,798 WARN 2748 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-25 16:59:35,417 INFO 9544 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 16:59:35,479 INFO 9544 [egg-multipart] stream mode enable
-2019-05-25 16:59:39,100 INFO 9544 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 16:59:39,117 INFO 9544 [egg-security] use csrf middleware
-2019-05-25 16:59:39,120 INFO 9544 [egg-security] use methodnoallow middleware
-2019-05-25 16:59:39,122 INFO 9544 [egg-security] use noopen middleware
-2019-05-25 16:59:39,124 INFO 9544 [egg-security] use nosniff middleware
-2019-05-25 16:59:39,126 INFO 9544 [egg-security] use xssProtection middleware
-2019-05-25 16:59:39,127 INFO 9544 [egg-security] use xframe middleware
-2019-05-25 16:59:39,128 INFO 9544 [egg-security] use dta middleware
-2019-05-25 16:59:39,128 INFO 9544 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 16:59:39,188 INFO 9544 [egg:core] dump config after load, 14ms
-2019-05-25 16:59:39,214 INFO 9544 [egg-watcher:application] watcher start success
-2019-05-25 16:59:39,229 INFO 9544 [egg:core] dump config after ready, 12ms
-2019-05-25 17:28:46,844 ERROR 9544 nodejs.ServerNoResponseError: server 127.0.0.1:56758 no response in 40001ms, maybe the socket is end on the other side. (address: 127.0.0.1:56758)
-    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\cheng\Desktop\myMovie\myMovie\node_modules\tcp-base\lib\base.js:427:21)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ServerNoResponseError"
-pid: 9544
-hostname: DESKTOP-VI1R32M
+2019-05-26 00:48:01,976 WARN 16697 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:48:13,644 ERROR 16697 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 16697
+hostname: coding.ide
 
-2019-05-25 17:28:46,846 WARN 9544 [ClusterClient:Watcher] follower closed, and try to init it again
-2019-05-25 17:39:01,936 INFO 9396 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 17:39:02,014 INFO 9396 [egg-multipart] stream mode enable
-2019-05-25 17:39:02,190 INFO 9396 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 17:39:02,198 INFO 9396 [egg-security] use csrf middleware
-2019-05-25 17:39:02,201 INFO 9396 [egg-security] use methodnoallow middleware
-2019-05-25 17:39:02,202 INFO 9396 [egg-security] use noopen middleware
-2019-05-25 17:39:02,205 INFO 9396 [egg-security] use nosniff middleware
-2019-05-25 17:39:02,206 INFO 9396 [egg-security] use xssProtection middleware
-2019-05-25 17:39:02,207 INFO 9396 [egg-security] use xframe middleware
-2019-05-25 17:39:02,208 INFO 9396 [egg-security] use dta middleware
-2019-05-25 17:39:02,208 INFO 9396 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 17:39:05,985 INFO 9396 [egg:core] dump config after load, 28ms
-2019-05-25 17:39:06,021 INFO 9396 [egg-watcher:application] watcher start success
-2019-05-25 17:39:06,043 INFO 9396 [egg:core] dump config after ready, 18ms
-2019-05-25 18:11:52,239 INFO 9608 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 18:11:52,324 INFO 9608 [egg-multipart] stream mode enable
-2019-05-25 18:11:53,093 INFO 9608 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 18:11:53,109 INFO 9608 [egg-security] use csrf middleware
-2019-05-25 18:11:53,112 INFO 9608 [egg-security] use methodnoallow middleware
-2019-05-25 18:11:53,114 INFO 9608 [egg-security] use noopen middleware
-2019-05-25 18:11:53,118 INFO 9608 [egg-security] use nosniff middleware
-2019-05-25 18:11:53,119 INFO 9608 [egg-security] use xssProtection middleware
-2019-05-25 18:11:53,120 INFO 9608 [egg-security] use xframe middleware
-2019-05-25 18:11:53,122 INFO 9608 [egg-security] use dta middleware
-2019-05-25 18:11:53,122 INFO 9608 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 18:11:53,170 INFO 9608 [egg:core] dump config after load, 17ms
-2019-05-25 18:11:53,203 INFO 9608 [egg-watcher:application] watcher start success
-2019-05-25 18:11:53,224 INFO 9608 [egg:core] dump config after ready, 18ms
-2019-05-25 19:07:24,655 INFO 1128 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 19:07:24,754 INFO 1128 [egg-multipart] stream mode enable
-2019-05-25 19:07:25,778 INFO 1128 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 19:07:25,805 INFO 1128 [egg-security] use csrf middleware
-2019-05-25 19:07:25,810 INFO 1128 [egg-security] use methodnoallow middleware
-2019-05-25 19:07:25,812 INFO 1128 [egg-security] use noopen middleware
-2019-05-25 19:07:25,816 INFO 1128 [egg-security] use nosniff middleware
-2019-05-25 19:07:25,818 INFO 1128 [egg-security] use xssProtection middleware
-2019-05-25 19:07:25,820 INFO 1128 [egg-security] use xframe middleware
-2019-05-25 19:07:25,822 INFO 1128 [egg-security] use dta middleware
-2019-05-25 19:07:25,822 INFO 1128 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 19:07:25,893 INFO 1128 [egg:core] dump config after load, 22ms
-2019-05-25 19:07:25,929 INFO 1128 [egg-watcher:application] watcher start success
-2019-05-25 19:07:25,951 INFO 1128 [egg:core] dump config after ready, 18ms
-2019-05-25 19:07:32,430 INFO 3376 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 19:07:32,513 INFO 3376 [egg-multipart] stream mode enable
-2019-05-25 19:07:32,702 INFO 3376 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 19:07:32,708 INFO 3376 [egg-security] use csrf middleware
-2019-05-25 19:07:32,712 INFO 3376 [egg-security] use methodnoallow middleware
-2019-05-25 19:07:32,713 INFO 3376 [egg-security] use noopen middleware
-2019-05-25 19:07:32,715 INFO 3376 [egg-security] use nosniff middleware
-2019-05-25 19:07:32,717 INFO 3376 [egg-security] use xssProtection middleware
-2019-05-25 19:07:32,718 INFO 3376 [egg-security] use xframe middleware
-2019-05-25 19:07:32,719 INFO 3376 [egg-security] use dta middleware
-2019-05-25 19:07:32,719 INFO 3376 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 19:07:32,749 INFO 3376 [egg:core] dump config after load, 20ms
-2019-05-25 19:07:32,776 INFO 3376 [egg-watcher:application] watcher start success
-2019-05-25 19:07:32,796 INFO 3376 [egg:core] dump config after ready, 15ms
-2019-05-25 19:17:29,048 INFO 8576 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 19:17:29,125 INFO 8576 [egg-multipart] stream mode enable
-2019-05-25 19:17:29,300 INFO 8576 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 19:17:29,306 INFO 8576 [egg-security] use csrf middleware
-2019-05-25 19:17:29,310 INFO 8576 [egg-security] use methodnoallow middleware
-2019-05-25 19:17:29,311 INFO 8576 [egg-security] use noopen middleware
-2019-05-25 19:17:29,314 INFO 8576 [egg-security] use nosniff middleware
-2019-05-25 19:17:29,316 INFO 8576 [egg-security] use xssProtection middleware
-2019-05-25 19:17:29,318 INFO 8576 [egg-security] use xframe middleware
-2019-05-25 19:17:29,319 INFO 8576 [egg-security] use dta middleware
-2019-05-25 19:17:29,319 INFO 8576 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 19:17:29,346 INFO 8576 [egg:core] dump config after load, 16ms
-2019-05-25 19:17:29,375 INFO 8576 [egg-watcher:application] watcher start success
-2019-05-25 19:17:29,394 INFO 8576 [egg:core] dump config after ready, 14ms
-2019-05-25 19:33:06,136 INFO 2020 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 19:33:06,220 INFO 2020 [egg-multipart] stream mode enable
-2019-05-25 19:33:07,366 INFO 2020 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 19:33:07,386 INFO 2020 [egg-security] use csrf middleware
-2019-05-25 19:33:07,393 INFO 2020 [egg-security] use methodnoallow middleware
-2019-05-25 19:33:07,396 INFO 2020 [egg-security] use noopen middleware
-2019-05-25 19:33:07,402 INFO 2020 [egg-security] use nosniff middleware
-2019-05-25 19:33:07,405 INFO 2020 [egg-security] use xssProtection middleware
-2019-05-25 19:33:07,408 INFO 2020 [egg-security] use xframe middleware
-2019-05-25 19:33:07,412 INFO 2020 [egg-security] use dta middleware
-2019-05-25 19:33:07,412 INFO 2020 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 19:33:07,499 INFO 2020 [egg:core] dump config after load, 35ms
-2019-05-25 19:33:07,548 INFO 2020 [egg-watcher:application] watcher start success
-2019-05-25 19:33:07,572 INFO 2020 [egg:core] dump config after ready, 19ms
-2019-05-25 19:52:14,476 INFO 5832 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 19:52:14,568 INFO 5832 [egg-multipart] stream mode enable
-2019-05-25 19:52:14,721 INFO 5832 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 19:52:14,727 INFO 5832 [egg-security] use csrf middleware
-2019-05-25 19:52:14,729 INFO 5832 [egg-security] use methodnoallow middleware
-2019-05-25 19:52:14,730 INFO 5832 [egg-security] use noopen middleware
-2019-05-25 19:52:14,734 INFO 5832 [egg-security] use nosniff middleware
-2019-05-25 19:52:14,736 INFO 5832 [egg-security] use xssProtection middleware
-2019-05-25 19:52:14,737 INFO 5832 [egg-security] use xframe middleware
-2019-05-25 19:52:14,738 INFO 5832 [egg-security] use dta middleware
-2019-05-25 19:52:14,738 INFO 5832 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 19:52:20,508 INFO 5832 [egg:core] dump config after load, 18ms
-2019-05-25 19:52:20,536 INFO 5832 [egg-watcher:application] watcher start success
-2019-05-25 19:52:20,568 INFO 5832 [egg:core] dump config after ready, 29ms
-2019-05-25 19:52:59,020 INFO 9576 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 19:52:59,102 INFO 9576 [egg-multipart] stream mode enable
-2019-05-25 19:52:59,313 INFO 9576 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 19:52:59,321 INFO 9576 [egg-security] use csrf middleware
-2019-05-25 19:52:59,324 INFO 9576 [egg-security] use methodnoallow middleware
-2019-05-25 19:52:59,325 INFO 9576 [egg-security] use noopen middleware
-2019-05-25 19:52:59,328 INFO 9576 [egg-security] use nosniff middleware
-2019-05-25 19:52:59,329 INFO 9576 [egg-security] use xssProtection middleware
-2019-05-25 19:52:59,330 INFO 9576 [egg-security] use xframe middleware
-2019-05-25 19:52:59,331 INFO 9576 [egg-security] use dta middleware
-2019-05-25 19:52:59,331 INFO 9576 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 19:53:03,236 INFO 9576 [egg:core] dump config after load, 22ms
-2019-05-25 19:53:03,267 INFO 9576 [egg-watcher:application] watcher start success
-2019-05-25 19:53:03,303 INFO 9576 [egg:core] dump config after ready, 31ms
-2019-05-25 19:53:23,601 INFO 10804 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 19:53:23,677 INFO 10804 [egg-multipart] stream mode enable
-2019-05-25 19:53:23,837 INFO 10804 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 19:53:23,843 INFO 10804 [egg-security] use csrf middleware
-2019-05-25 19:53:23,846 INFO 10804 [egg-security] use methodnoallow middleware
-2019-05-25 19:53:23,847 INFO 10804 [egg-security] use noopen middleware
-2019-05-25 19:53:23,850 INFO 10804 [egg-security] use nosniff middleware
-2019-05-25 19:53:23,852 INFO 10804 [egg-security] use xssProtection middleware
-2019-05-25 19:53:23,853 INFO 10804 [egg-security] use xframe middleware
-2019-05-25 19:53:23,854 INFO 10804 [egg-security] use dta middleware
-2019-05-25 19:53:23,854 INFO 10804 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 19:53:23,942 INFO 10804 [egg:core] dump config after load, 77ms
-2019-05-25 19:53:23,967 INFO 10804 [egg-watcher:application] watcher start success
-2019-05-25 19:53:23,996 INFO 10804 [egg:core] dump config after ready, 26ms
-2019-05-25 19:57:22,830 INFO 2980 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 19:57:22,907 INFO 2980 [egg-multipart] stream mode enable
-2019-05-25 19:57:23,066 INFO 2980 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 19:57:23,074 INFO 2980 [egg-security] use csrf middleware
-2019-05-25 19:57:23,078 INFO 2980 [egg-security] use methodnoallow middleware
-2019-05-25 19:57:23,079 INFO 2980 [egg-security] use noopen middleware
-2019-05-25 19:57:23,082 INFO 2980 [egg-security] use nosniff middleware
-2019-05-25 19:57:23,083 INFO 2980 [egg-security] use xssProtection middleware
-2019-05-25 19:57:23,085 INFO 2980 [egg-security] use xframe middleware
-2019-05-25 19:57:23,086 INFO 2980 [egg-security] use dta middleware
-2019-05-25 19:57:23,086 INFO 2980 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 19:57:23,124 INFO 2980 [egg:core] dump config after load, 27ms
-2019-05-25 19:57:23,151 INFO 2980 [egg-watcher:application] watcher start success
-2019-05-25 19:57:23,171 INFO 2980 [egg:core] dump config after ready, 16ms
-2019-05-25 20:06:55,198 INFO 2992 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 20:06:55,281 INFO 2992 [egg-multipart] stream mode enable
-2019-05-25 20:06:55,448 INFO 2992 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 20:06:55,458 INFO 2992 [egg-security] use csrf middleware
-2019-05-25 20:06:55,462 INFO 2992 [egg-security] use methodnoallow middleware
-2019-05-25 20:06:55,463 INFO 2992 [egg-security] use noopen middleware
-2019-05-25 20:06:55,466 INFO 2992 [egg-security] use nosniff middleware
-2019-05-25 20:06:55,468 INFO 2992 [egg-security] use xssProtection middleware
-2019-05-25 20:06:55,469 INFO 2992 [egg-security] use xframe middleware
-2019-05-25 20:06:55,470 INFO 2992 [egg-security] use dta middleware
-2019-05-25 20:06:55,470 INFO 2992 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 20:06:55,500 INFO 2992 [egg:core] dump config after load, 19ms
-2019-05-25 20:06:55,531 INFO 2992 [egg-watcher:application] watcher start success
-2019-05-25 20:06:55,553 INFO 2992 [egg:core] dump config after ready, 17ms
-2019-05-25 20:08:00,206 INFO 7108 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 20:08:00,288 INFO 7108 [egg-multipart] stream mode enable
-2019-05-25 20:08:00,494 INFO 7108 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 20:08:00,504 INFO 7108 [egg-security] use csrf middleware
-2019-05-25 20:08:00,508 INFO 7108 [egg-security] use methodnoallow middleware
-2019-05-25 20:08:00,510 INFO 7108 [egg-security] use noopen middleware
-2019-05-25 20:08:00,513 INFO 7108 [egg-security] use nosniff middleware
-2019-05-25 20:08:00,515 INFO 7108 [egg-security] use xssProtection middleware
-2019-05-25 20:08:00,517 INFO 7108 [egg-security] use xframe middleware
-2019-05-25 20:08:00,519 INFO 7108 [egg-security] use dta middleware
-2019-05-25 20:08:00,519 INFO 7108 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 20:08:00,554 INFO 7108 [egg:core] dump config after load, 20ms
-2019-05-25 20:08:00,584 INFO 7108 [egg-watcher:application] watcher start success
-2019-05-25 20:08:00,607 INFO 7108 [egg:core] dump config after ready, 19ms
-2019-05-25 20:08:12,017 INFO 9464 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 20:08:12,118 INFO 9464 [egg-multipart] stream mode enable
-2019-05-25 20:08:12,324 INFO 9464 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 20:08:12,332 INFO 9464 [egg-security] use csrf middleware
-2019-05-25 20:08:12,337 INFO 9464 [egg-security] use methodnoallow middleware
-2019-05-25 20:08:12,339 INFO 9464 [egg-security] use noopen middleware
-2019-05-25 20:08:12,343 INFO 9464 [egg-security] use nosniff middleware
-2019-05-25 20:08:12,344 INFO 9464 [egg-security] use xssProtection middleware
-2019-05-25 20:08:12,346 INFO 9464 [egg-security] use xframe middleware
-2019-05-25 20:08:12,348 INFO 9464 [egg-security] use dta middleware
-2019-05-25 20:08:12,348 INFO 9464 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 20:08:12,384 INFO 9464 [egg:core] dump config after load, 22ms
-2019-05-25 20:08:12,412 INFO 9464 [egg-watcher:application] watcher start success
-2019-05-25 20:08:12,433 INFO 9464 [egg:core] dump config after ready, 17ms
-2019-05-25 20:41:20,961 INFO 3588 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 20:41:21,061 INFO 3588 [egg-multipart] stream mode enable
-2019-05-25 20:41:21,821 INFO 3588 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 20:41:21,847 INFO 3588 [egg-security] use csrf middleware
-2019-05-25 20:41:21,851 INFO 3588 [egg-security] use methodnoallow middleware
-2019-05-25 20:41:21,853 INFO 3588 [egg-security] use noopen middleware
-2019-05-25 20:41:21,857 INFO 3588 [egg-security] use nosniff middleware
-2019-05-25 20:41:21,859 INFO 3588 [egg-security] use xssProtection middleware
-2019-05-25 20:41:21,861 INFO 3588 [egg-security] use xframe middleware
-2019-05-25 20:41:21,863 INFO 3588 [egg-security] use dta middleware
-2019-05-25 20:41:21,863 INFO 3588 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 20:41:21,948 INFO 3588 [egg:core] dump config after load, 18ms
-2019-05-25 20:41:21,981 INFO 3588 [egg-watcher:application] watcher start success
-2019-05-25 20:41:22,003 INFO 3588 [egg:core] dump config after ready, 18ms
-2019-05-25 21:22:56,334 INFO 8480 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 21:22:56,440 INFO 8480 [egg-multipart] stream mode enable
-2019-05-25 21:22:57,289 INFO 8480 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 21:22:57,315 INFO 8480 [egg-security] use csrf middleware
-2019-05-25 21:22:57,318 INFO 8480 [egg-security] use methodnoallow middleware
-2019-05-25 21:22:57,319 INFO 8480 [egg-security] use noopen middleware
-2019-05-25 21:22:57,323 INFO 8480 [egg-security] use nosniff middleware
-2019-05-25 21:22:57,326 INFO 8480 [egg-security] use xssProtection middleware
-2019-05-25 21:22:57,329 INFO 8480 [egg-security] use xframe middleware
-2019-05-25 21:22:57,332 INFO 8480 [egg-security] use dta middleware
-2019-05-25 21:22:57,332 INFO 8480 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 21:22:57,451 INFO 8480 [egg:core] dump config after load, 20ms
-2019-05-25 21:22:57,485 INFO 8480 [egg-watcher:application] watcher start success
-2019-05-25 21:22:57,512 INFO 8480 [egg:core] dump config after ready, 23ms
-2019-05-25 21:23:11,287 INFO 6248 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 21:23:11,376 INFO 6248 [egg-multipart] stream mode enable
-2019-05-25 21:23:11,582 INFO 6248 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 21:23:11,589 INFO 6248 [egg-security] use csrf middleware
-2019-05-25 21:23:11,592 INFO 6248 [egg-security] use methodnoallow middleware
-2019-05-25 21:23:11,593 INFO 6248 [egg-security] use noopen middleware
-2019-05-25 21:23:11,597 INFO 6248 [egg-security] use nosniff middleware
-2019-05-25 21:23:11,598 INFO 6248 [egg-security] use xssProtection middleware
-2019-05-25 21:23:11,600 INFO 6248 [egg-security] use xframe middleware
-2019-05-25 21:23:11,601 INFO 6248 [egg-security] use dta middleware
-2019-05-25 21:23:11,601 INFO 6248 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 21:23:11,631 INFO 6248 [egg:core] dump config after load, 17ms
-2019-05-25 21:23:11,655 INFO 6248 [egg-watcher:application] watcher start success
-2019-05-25 21:23:11,674 INFO 6248 [egg:core] dump config after ready, 15ms
-2019-05-25 22:33:59,951 INFO 1804 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 22:34:00,417 INFO 1804 [egg-multipart] stream mode enable
-2019-05-25 22:34:01,462 INFO 1804 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 22:34:01,488 INFO 1804 [egg-security] use csrf middleware
-2019-05-25 22:34:01,503 INFO 1804 [egg-security] use methodnoallow middleware
-2019-05-25 22:34:01,505 INFO 1804 [egg-security] use noopen middleware
-2019-05-25 22:34:01,509 INFO 1804 [egg-security] use nosniff middleware
-2019-05-25 22:34:01,511 INFO 1804 [egg-security] use xssProtection middleware
-2019-05-25 22:34:01,513 INFO 1804 [egg-security] use xframe middleware
-2019-05-25 22:34:01,515 INFO 1804 [egg-security] use dta middleware
-2019-05-25 22:34:01,516 INFO 1804 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 22:34:01,636 INFO 1804 [egg:core] dump config after load, 43ms
-2019-05-25 22:34:01,667 INFO 1804 [egg-watcher:application] watcher start success
-2019-05-25 22:34:01,711 INFO 1804 [egg:core] dump config after ready, 38ms
-2019-05-25 22:34:06,900 INFO 7152 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\myMovie\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-05-25 22:34:06,972 INFO 7152 [egg-multipart] stream mode enable
-2019-05-25 22:34:07,153 INFO 7152 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\myMovie\public
-2019-05-25 22:34:07,161 INFO 7152 [egg-security] use csrf middleware
-2019-05-25 22:34:07,163 INFO 7152 [egg-security] use methodnoallow middleware
-2019-05-25 22:34:07,164 INFO 7152 [egg-security] use noopen middleware
-2019-05-25 22:34:07,167 INFO 7152 [egg-security] use nosniff middleware
-2019-05-25 22:34:07,168 INFO 7152 [egg-security] use xssProtection middleware
-2019-05-25 22:34:07,169 INFO 7152 [egg-security] use xframe middleware
-2019-05-25 22:34:07,170 INFO 7152 [egg-security] use dta middleware
-2019-05-25 22:34:07,170 INFO 7152 [egg-security] compose 7 middlewares into one security middleware
-2019-05-25 22:34:07,203 INFO 7152 [egg:core] dump config after load, 21ms
-2019-05-25 22:34:07,233 INFO 7152 [egg-watcher:application] watcher start success
-2019-05-25 22:34:07,266 INFO 7152 [egg:core] dump config after ready, 30ms
+2019-05-26 00:49:01,532 WARN 16697 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:49:13,640 ERROR 16697 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 16697
+hostname: coding.ide
+
+2019-05-26 00:50:02,052 WARN 16697 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:52:09,556 INFO 17532 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 00:52:09,588 INFO 17532 [egg-multipart] stream mode enable
+2019-05-26 00:52:09,880 INFO 17532 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 00:52:09,927 INFO 17532 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 00:52:09,930 INFO 17532 [egg-security] use csrf middleware
+2019-05-26 00:52:09,930 INFO 17532 [egg-security] use methodnoallow middleware
+2019-05-26 00:52:09,930 INFO 17532 [egg-security] use noopen middleware
+2019-05-26 00:52:09,930 INFO 17532 [egg-security] use nosniff middleware
+2019-05-26 00:52:09,930 INFO 17532 [egg-security] use xssProtection middleware
+2019-05-26 00:52:09,932 INFO 17532 [egg-security] use xframe middleware
+2019-05-26 00:52:09,932 INFO 17532 [egg-security] use dta middleware
+2019-05-26 00:52:09,932 INFO 17532 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 00:52:09,948 INFO 17532 [egg:core] dump config after load, 12ms
+2019-05-26 00:52:09,954 INFO 17532 [egg-mongoose] starting...
+2019-05-26 00:52:09,980 INFO 17532 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 00:52:09,980 INFO 17532 [egg-mongoose] instance[0] start successfully
+2019-05-26 00:52:09,988 INFO 17532 [egg-watcher:application] watcher start success
+2019-05-26 00:52:10,000 INFO 17532 [egg:core] dump config after ready, 4ms
+2019-05-26 00:52:09,860 INFO 17538 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 00:52:09,920 INFO 17538 [egg-multipart] stream mode enable
+2019-05-26 00:52:10,228 INFO 17538 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 00:52:10,292 INFO 17538 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 00:52:10,300 INFO 17538 [egg-security] use csrf middleware
+2019-05-26 00:52:10,300 INFO 17538 [egg-security] use methodnoallow middleware
+2019-05-26 00:52:10,305 INFO 17538 [egg-security] use noopen middleware
+2019-05-26 00:52:10,305 INFO 17538 [egg-security] use nosniff middleware
+2019-05-26 00:52:10,305 INFO 17538 [egg-security] use xssProtection middleware
+2019-05-26 00:52:10,305 INFO 17538 [egg-security] use xframe middleware
+2019-05-26 00:52:10,308 INFO 17538 [egg-security] use dta middleware
+2019-05-26 00:52:10,308 INFO 17538 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 00:52:10,324 INFO 17538 [egg:core] dump config after load, 6ms
+2019-05-26 00:52:10,326 INFO 17538 [egg-mongoose] starting...
+2019-05-26 00:52:10,355 INFO 17538 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 00:52:10,356 INFO 17538 [egg-mongoose] instance[0] start successfully
+2019-05-26 00:52:10,360 INFO 17538 [egg-watcher:application] watcher start success
+2019-05-26 00:52:10,378 INFO 17538 [egg:core] dump config after ready, 14ms
+2019-05-26 00:53:01,614 WARN 17532 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:53:01,616 WARN 17538 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:54:02,129 WARN 17532 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:54:02,132 WARN 17538 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:55:06,160 INFO 17731 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 00:55:06,188 INFO 17731 [egg-multipart] stream mode enable
+2019-05-26 00:55:06,452 INFO 17731 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 00:55:06,492 INFO 17731 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 00:55:06,496 INFO 17731 [egg-security] use csrf middleware
+2019-05-26 00:55:06,497 INFO 17731 [egg-security] use methodnoallow middleware
+2019-05-26 00:55:06,497 INFO 17731 [egg-security] use noopen middleware
+2019-05-26 00:55:06,498 INFO 17731 [egg-security] use nosniff middleware
+2019-05-26 00:55:06,498 INFO 17731 [egg-security] use xssProtection middleware
+2019-05-26 00:55:06,498 INFO 17731 [egg-security] use xframe middleware
+2019-05-26 00:55:06,499 INFO 17731 [egg-security] use dta middleware
+2019-05-26 00:55:06,499 INFO 17731 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 00:55:06,510 INFO 17731 [egg:core] dump config after load, 10ms
+2019-05-26 00:55:06,514 INFO 17731 [egg-mongoose] starting...
+2019-05-26 00:55:06,540 INFO 17731 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 00:55:06,544 INFO 17731 [egg-mongoose] instance[0] start successfully
+2019-05-26 00:55:06,552 INFO 17731 [egg-watcher:application] watcher start success
+2019-05-26 00:55:06,601 INFO 17731 [egg:core] dump config after ready, 43ms
+2019-05-26 00:55:06,288 INFO 17730 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 00:55:06,331 INFO 17730 [egg-multipart] stream mode enable
+2019-05-26 00:55:06,680 INFO 17730 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 00:55:06,732 INFO 17730 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 00:55:06,740 INFO 17730 [egg-security] use csrf middleware
+2019-05-26 00:55:06,740 INFO 17730 [egg-security] use methodnoallow middleware
+2019-05-26 00:55:06,742 INFO 17730 [egg-security] use noopen middleware
+2019-05-26 00:55:06,742 INFO 17730 [egg-security] use nosniff middleware
+2019-05-26 00:55:06,744 INFO 17730 [egg-security] use xssProtection middleware
+2019-05-26 00:55:06,744 INFO 17730 [egg-security] use xframe middleware
+2019-05-26 00:55:06,744 INFO 17730 [egg-security] use dta middleware
+2019-05-26 00:55:06,744 INFO 17730 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 00:55:06,760 INFO 17730 [egg:core] dump config after load, 8ms
+2019-05-26 00:55:06,764 INFO 17730 [egg-mongoose] starting...
+2019-05-26 00:55:06,788 INFO 17730 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 00:55:06,792 INFO 17730 [egg-mongoose] instance[0] start successfully
+2019-05-26 00:55:06,798 INFO 17730 [egg-watcher:application] watcher start success
+2019-05-26 00:55:06,813 INFO 17730 [egg:core] dump config after ready, 13ms
+2019-05-26 00:56:02,141 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:56:02,152 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:57:01,682 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:57:01,682 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:58:02,240 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:58:02,244 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:59:01,776 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 00:59:01,777 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:00:01,360 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:00:01,360 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:01:02,144 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:01:02,144 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:02:01,281 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:02:01,281 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:03:01,764 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:03:01,764 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:04:02,204 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:04:02,204 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:05:01,708 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:05:01,704 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:06:02,168 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:06:02,164 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:07:01,653 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:07:01,653 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:08:02,100 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:08:02,092 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:09:01,565 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:09:01,565 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:10:02,044 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:10:02,044 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:11:01,565 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:11:01,560 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:12:02,001 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:12:02,001 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:13:01,465 WARN 17730 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:13:01,465 WARN 17731 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:14:33,860 INFO 18106 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:14:33,900 INFO 18106 [egg-multipart] stream mode enable
+2019-05-26 01:14:34,668 INFO 18106 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:14:34,756 INFO 18106 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:14:34,764 INFO 18106 [egg-security] use csrf middleware
+2019-05-26 01:14:34,764 INFO 18106 [egg-security] use methodnoallow middleware
+2019-05-26 01:14:34,764 INFO 18106 [egg-security] use noopen middleware
+2019-05-26 01:14:34,768 INFO 18106 [egg-security] use nosniff middleware
+2019-05-26 01:14:34,768 INFO 18106 [egg-security] use xssProtection middleware
+2019-05-26 01:14:34,768 INFO 18106 [egg-security] use xframe middleware
+2019-05-26 01:14:34,768 INFO 18106 [egg-security] use dta middleware
+2019-05-26 01:14:34,768 INFO 18106 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:14:34,784 INFO 18106 [egg:core] dump config after load, 9ms
+2019-05-26 01:14:34,788 INFO 18106 [egg-mongoose] starting...
+2019-05-26 01:14:34,818 INFO 18106 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:14:34,819 INFO 18106 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:14:34,825 INFO 18106 [egg-watcher:application] watcher start success
+2019-05-26 01:14:34,844 INFO 18106 [egg:core] dump config after ready, 16ms
+2019-05-26 01:14:33,865 INFO 18105 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:14:33,904 INFO 18105 [egg-multipart] stream mode enable
+2019-05-26 01:14:34,680 INFO 18105 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:14:34,753 INFO 18105 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:14:34,756 INFO 18105 [egg-security] use csrf middleware
+2019-05-26 01:14:34,760 INFO 18105 [egg-security] use methodnoallow middleware
+2019-05-26 01:14:34,768 INFO 18105 [egg-security] use noopen middleware
+2019-05-26 01:14:34,776 INFO 18105 [egg-security] use nosniff middleware
+2019-05-26 01:14:34,776 INFO 18105 [egg-security] use xssProtection middleware
+2019-05-26 01:14:34,778 INFO 18105 [egg-security] use xframe middleware
+2019-05-26 01:14:34,780 INFO 18105 [egg-security] use dta middleware
+2019-05-26 01:14:34,780 INFO 18105 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:14:34,792 INFO 18105 [egg:core] dump config after load, 4ms
+2019-05-26 01:14:34,796 INFO 18105 [egg-mongoose] starting...
+2019-05-26 01:14:34,840 INFO 18105 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:14:34,840 INFO 18105 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:14:34,856 INFO 18105 [egg-watcher:application] watcher start success
+2019-05-26 01:14:34,884 INFO 18105 [egg:core] dump config after ready, 20ms
+2019-05-26 01:15:01,436 WARN 18105 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:15:01,432 WARN 18106 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:16:01,996 WARN 18106 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:16:02,000 WARN 18105 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:17:01,420 WARN 18106 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:17:01,420 WARN 18105 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:18:01,968 WARN 18106 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:18:01,973 WARN 18105 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:19:10,988 INFO 18284 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:19:11,021 INFO 18284 [egg-multipart] stream mode enable
+2019-05-26 01:19:11,280 INFO 18284 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:19:11,328 INFO 18284 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:19:11,332 INFO 18284 [egg-security] use csrf middleware
+2019-05-26 01:19:11,332 INFO 18284 [egg-security] use methodnoallow middleware
+2019-05-26 01:19:11,332 INFO 18284 [egg-security] use noopen middleware
+2019-05-26 01:19:11,332 INFO 18284 [egg-security] use nosniff middleware
+2019-05-26 01:19:11,332 INFO 18284 [egg-security] use xssProtection middleware
+2019-05-26 01:19:11,332 INFO 18284 [egg-security] use xframe middleware
+2019-05-26 01:19:11,332 INFO 18284 [egg-security] use dta middleware
+2019-05-26 01:19:11,332 INFO 18284 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:19:11,344 INFO 18284 [egg:core] dump config after load, 4ms
+2019-05-26 01:19:11,344 INFO 18284 [egg-mongoose] starting...
+2019-05-26 01:19:11,368 INFO 18284 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:19:11,372 INFO 18284 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:19:11,432 INFO 18284 [egg-watcher:application] watcher start success
+2019-05-26 01:19:11,440 INFO 18284 [egg:core] dump config after ready, 4ms
+2019-05-26 01:19:11,172 INFO 18285 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:19:11,221 INFO 18285 [egg-multipart] stream mode enable
+2019-05-26 01:19:11,588 INFO 18285 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:19:11,642 INFO 18285 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:19:11,644 INFO 18285 [egg-security] use csrf middleware
+2019-05-26 01:19:11,648 INFO 18285 [egg-security] use methodnoallow middleware
+2019-05-26 01:19:11,648 INFO 18285 [egg-security] use noopen middleware
+2019-05-26 01:19:11,648 INFO 18285 [egg-security] use nosniff middleware
+2019-05-26 01:19:11,648 INFO 18285 [egg-security] use xssProtection middleware
+2019-05-26 01:19:11,652 INFO 18285 [egg-security] use xframe middleware
+2019-05-26 01:19:11,652 INFO 18285 [egg-security] use dta middleware
+2019-05-26 01:19:11,652 INFO 18285 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:19:11,664 INFO 18285 [egg:core] dump config after load, 4ms
+2019-05-26 01:19:11,671 INFO 18285 [egg-mongoose] starting...
+2019-05-26 01:19:11,696 INFO 18285 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:19:11,696 INFO 18285 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:19:11,704 INFO 18285 [egg-watcher:application] watcher start success
+2019-05-26 01:19:11,736 INFO 18285 [egg:core] dump config after ready, 28ms
+2019-05-26 01:20:01,926 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:20:01,925 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:21:02,048 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:21:02,048 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:22:01,802 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:22:01,804 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:23:01,312 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:23:01,312 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:24:01,747 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:24:01,741 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:25:01,229 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:25:01,229 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:26:01,692 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:26:01,692 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:27:01,884 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:27:01,889 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:28:01,328 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:28:01,324 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:29:01,748 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:29:01,748 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:30:01,300 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:30:01,300 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:31:01,704 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:31:01,704 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:32:02,149 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:32:02,149 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:33:01,598 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:33:01,598 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:34:02,024 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:34:02,024 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:35:01,426 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:35:01,428 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:36:01,869 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:36:01,869 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:37:01,353 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:37:01,353 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:38:01,780 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:38:01,780 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:39:01,284 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:39:01,280 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:40:01,673 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:40:01,672 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:41:01,824 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:41:01,828 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:42:01,556 WARN 18285 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:42:01,556 WARN 18284 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:43:17,938 INFO 18672 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:43:17,972 INFO 18672 [egg-multipart] stream mode enable
+2019-05-26 01:43:18,280 INFO 18672 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:43:18,336 INFO 18672 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:43:18,336 INFO 18672 [egg-security] use csrf middleware
+2019-05-26 01:43:18,336 INFO 18672 [egg-security] use methodnoallow middleware
+2019-05-26 01:43:18,340 INFO 18672 [egg-security] use noopen middleware
+2019-05-26 01:43:18,340 INFO 18672 [egg-security] use nosniff middleware
+2019-05-26 01:43:18,344 INFO 18672 [egg-security] use xssProtection middleware
+2019-05-26 01:43:18,344 INFO 18672 [egg-security] use xframe middleware
+2019-05-26 01:43:18,344 INFO 18672 [egg-security] use dta middleware
+2019-05-26 01:43:18,344 INFO 18672 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:43:18,355 INFO 18672 [egg:core] dump config after load, 7ms
+2019-05-26 01:43:18,356 INFO 18672 [egg-mongoose] starting...
+2019-05-26 01:43:18,392 INFO 18672 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:43:18,395 INFO 18672 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:43:18,404 INFO 18672 [egg-watcher:application] watcher start success
+2019-05-26 01:43:18,420 INFO 18672 [egg:core] dump config after ready, 12ms
+2019-05-26 01:43:18,344 INFO 18673 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:43:18,392 INFO 18673 [egg-multipart] stream mode enable
+2019-05-26 01:43:18,668 INFO 18673 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:43:18,715 INFO 18673 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:43:18,716 INFO 18673 [egg-security] use csrf middleware
+2019-05-26 01:43:18,716 INFO 18673 [egg-security] use methodnoallow middleware
+2019-05-26 01:43:18,716 INFO 18673 [egg-security] use noopen middleware
+2019-05-26 01:43:18,716 INFO 18673 [egg-security] use nosniff middleware
+2019-05-26 01:43:18,716 INFO 18673 [egg-security] use xssProtection middleware
+2019-05-26 01:43:18,716 INFO 18673 [egg-security] use xframe middleware
+2019-05-26 01:43:18,720 INFO 18673 [egg-security] use dta middleware
+2019-05-26 01:43:18,720 INFO 18673 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:43:18,730 INFO 18673 [egg:core] dump config after load, 6ms
+2019-05-26 01:43:18,732 INFO 18673 [egg-mongoose] starting...
+2019-05-26 01:43:18,788 INFO 18673 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:43:18,792 INFO 18673 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:43:18,796 INFO 18673 [egg-watcher:application] watcher start success
+2019-05-26 01:43:18,813 INFO 18673 [egg:core] dump config after ready, 17ms
+2019-05-26 01:44:01,408 WARN 18673 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:44:01,412 WARN 18672 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:45:04,096 INFO 18832 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:45:04,128 INFO 18832 [egg-multipart] stream mode enable
+2019-05-26 01:45:04,416 INFO 18832 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:45:04,464 INFO 18832 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:45:04,469 INFO 18832 [egg-security] use csrf middleware
+2019-05-26 01:45:04,471 INFO 18832 [egg-security] use methodnoallow middleware
+2019-05-26 01:45:04,471 INFO 18832 [egg-security] use noopen middleware
+2019-05-26 01:45:04,473 INFO 18832 [egg-security] use nosniff middleware
+2019-05-26 01:45:04,474 INFO 18832 [egg-security] use xssProtection middleware
+2019-05-26 01:45:04,474 INFO 18832 [egg-security] use xframe middleware
+2019-05-26 01:45:04,475 INFO 18832 [egg-security] use dta middleware
+2019-05-26 01:45:04,475 INFO 18832 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:45:04,492 INFO 18832 [egg:core] dump config after load, 12ms
+2019-05-26 01:45:04,497 INFO 18832 [egg-mongoose] starting...
+2019-05-26 01:45:04,528 INFO 18832 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:45:04,529 INFO 18832 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:45:04,537 INFO 18832 [egg-watcher:application] watcher start success
+2019-05-26 01:45:04,556 INFO 18832 [egg:core] dump config after ready, 12ms
+2019-05-26 01:45:04,388 INFO 18833 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:45:04,440 INFO 18833 [egg-multipart] stream mode enable
+2019-05-26 01:45:04,756 INFO 18833 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:45:04,808 INFO 18833 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:45:04,808 INFO 18833 [egg-security] use csrf middleware
+2019-05-26 01:45:04,812 INFO 18833 [egg-security] use methodnoallow middleware
+2019-05-26 01:45:04,812 INFO 18833 [egg-security] use noopen middleware
+2019-05-26 01:45:04,813 INFO 18833 [egg-security] use nosniff middleware
+2019-05-26 01:45:04,813 INFO 18833 [egg-security] use xssProtection middleware
+2019-05-26 01:45:04,813 INFO 18833 [egg-security] use xframe middleware
+2019-05-26 01:45:04,816 INFO 18833 [egg-security] use dta middleware
+2019-05-26 01:45:04,816 INFO 18833 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:45:04,828 INFO 18833 [egg:core] dump config after load, 8ms
+2019-05-26 01:45:04,832 INFO 18833 [egg-mongoose] starting...
+2019-05-26 01:45:04,856 INFO 18833 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:45:04,862 INFO 18833 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:45:04,864 INFO 18833 [egg-watcher:application] watcher start success
+2019-05-26 01:45:04,887 INFO 18833 [egg:core] dump config after ready, 19ms
+2019-05-26 01:46:01,296 WARN 18833 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:46:01,296 WARN 18832 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:47:01,628 WARN 18833 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:47:01,628 WARN 18832 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:48:02,068 WARN 18833 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:48:02,068 WARN 18832 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:49:01,444 WARN 18833 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:49:01,440 WARN 18832 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:50:01,924 WARN 18833 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:50:01,924 WARN 18832 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:51:01,352 WARN 18833 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:51:01,348 WARN 18832 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:52:01,841 WARN 18832 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:52:01,844 WARN 18833 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:53:01,300 WARN 18832 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:53:01,300 WARN 18833 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:54:15,232 INFO 19062 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:54:15,264 INFO 19062 [egg-multipart] stream mode enable
+2019-05-26 01:54:15,528 INFO 19062 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:54:15,576 INFO 19062 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:54:15,584 INFO 19062 [egg-security] use csrf middleware
+2019-05-26 01:54:15,584 INFO 19062 [egg-security] use methodnoallow middleware
+2019-05-26 01:54:15,584 INFO 19062 [egg-security] use noopen middleware
+2019-05-26 01:54:15,588 INFO 19062 [egg-security] use nosniff middleware
+2019-05-26 01:54:15,588 INFO 19062 [egg-security] use xssProtection middleware
+2019-05-26 01:54:15,588 INFO 19062 [egg-security] use xframe middleware
+2019-05-26 01:54:15,588 INFO 19062 [egg-security] use dta middleware
+2019-05-26 01:54:15,588 INFO 19062 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:54:15,610 INFO 19062 [egg:core] dump config after load, 14ms
+2019-05-26 01:54:15,612 INFO 19062 [egg-mongoose] starting...
+2019-05-26 01:54:15,644 INFO 19062 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:54:15,644 INFO 19062 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:54:15,652 INFO 19062 [egg-watcher:application] watcher start success
+2019-05-26 01:54:15,673 INFO 19062 [egg:core] dump config after ready, 13ms
+2019-05-26 01:54:15,280 INFO 19063 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:54:15,328 INFO 19063 [egg-multipart] stream mode enable
+2019-05-26 01:54:15,716 INFO 19063 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:54:15,788 INFO 19063 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:54:15,796 INFO 19063 [egg-security] use csrf middleware
+2019-05-26 01:54:15,796 INFO 19063 [egg-security] use methodnoallow middleware
+2019-05-26 01:54:15,800 INFO 19063 [egg-security] use noopen middleware
+2019-05-26 01:54:15,800 INFO 19063 [egg-security] use nosniff middleware
+2019-05-26 01:54:15,800 INFO 19063 [egg-security] use xssProtection middleware
+2019-05-26 01:54:15,800 INFO 19063 [egg-security] use xframe middleware
+2019-05-26 01:54:15,800 INFO 19063 [egg-security] use dta middleware
+2019-05-26 01:54:15,803 INFO 19063 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:54:15,812 INFO 19063 [egg:core] dump config after load, 8ms
+2019-05-26 01:54:15,812 INFO 19063 [egg-mongoose] starting...
+2019-05-26 01:54:15,840 INFO 19063 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:54:15,840 INFO 19063 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:54:15,844 INFO 19063 [egg-watcher:application] watcher start success
+2019-05-26 01:54:15,854 INFO 19063 [egg:core] dump config after ready, 5ms
+2019-05-26 01:55:00,596 INFO 19154 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:55:00,636 INFO 19154 [egg-multipart] stream mode enable
+2019-05-26 01:55:00,966 INFO 19154 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:55:01,016 INFO 19154 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:55:01,018 INFO 19154 [egg-security] use csrf middleware
+2019-05-26 01:55:01,018 INFO 19154 [egg-security] use methodnoallow middleware
+2019-05-26 01:55:01,018 INFO 19154 [egg-security] use noopen middleware
+2019-05-26 01:55:01,020 INFO 19154 [egg-security] use nosniff middleware
+2019-05-26 01:55:01,020 INFO 19154 [egg-security] use xssProtection middleware
+2019-05-26 01:55:01,020 INFO 19154 [egg-security] use xframe middleware
+2019-05-26 01:55:01,020 INFO 19154 [egg-security] use dta middleware
+2019-05-26 01:55:01,020 INFO 19154 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:55:03,737 INFO 19154 [egg:core] dump config after load, 9ms
+2019-05-26 01:55:03,737 INFO 19154 [egg-mongoose] starting...
+2019-05-26 01:55:41,524 INFO 19239 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:55:41,552 INFO 19239 [egg-multipart] stream mode enable
+2019-05-26 01:55:41,880 INFO 19239 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:55:41,948 INFO 19239 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:55:41,952 INFO 19239 [egg-security] use csrf middleware
+2019-05-26 01:55:41,952 INFO 19239 [egg-security] use methodnoallow middleware
+2019-05-26 01:55:41,952 INFO 19239 [egg-security] use noopen middleware
+2019-05-26 01:55:41,952 INFO 19239 [egg-security] use nosniff middleware
+2019-05-26 01:55:41,952 INFO 19239 [egg-security] use xssProtection middleware
+2019-05-26 01:55:41,952 INFO 19239 [egg-security] use xframe middleware
+2019-05-26 01:55:41,952 INFO 19239 [egg-security] use dta middleware
+2019-05-26 01:55:41,952 INFO 19239 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:55:41,964 INFO 19239 [egg:core] dump config after load, 8ms
+2019-05-26 01:55:41,968 INFO 19239 [egg-mongoose] starting...
+2019-05-26 01:55:41,996 INFO 19239 [egg-watcher:application] watcher start success
+2019-05-26 01:55:42,000 INFO 19239 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:55:42,004 INFO 19239 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:55:42,016 INFO 19239 [egg:core] dump config after ready, 4ms
+2019-05-26 01:55:52,952 ERROR 19239 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 19239
+hostname: coding.ide
+
+2019-05-26 01:56:01,436 WARN 19239 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:56:12,176 ERROR 19239 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 19239
+hostname: coding.ide
+
+2019-05-26 01:56:34,371 INFO 19515 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:56:34,400 INFO 19515 [egg-multipart] stream mode enable
+2019-05-26 01:56:34,716 INFO 19515 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:56:34,764 INFO 19515 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:56:34,764 INFO 19515 [egg-security] use csrf middleware
+2019-05-26 01:56:34,764 INFO 19515 [egg-security] use methodnoallow middleware
+2019-05-26 01:56:34,764 INFO 19515 [egg-security] use noopen middleware
+2019-05-26 01:56:34,768 INFO 19515 [egg-security] use nosniff middleware
+2019-05-26 01:56:34,768 INFO 19515 [egg-security] use xssProtection middleware
+2019-05-26 01:56:34,768 INFO 19515 [egg-security] use xframe middleware
+2019-05-26 01:56:34,768 INFO 19515 [egg-security] use dta middleware
+2019-05-26 01:56:34,768 INFO 19515 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:56:37,236 INFO 19515 [egg:core] dump config after load, 10ms
+2019-05-26 01:56:37,240 INFO 19515 [egg-mongoose] starting...
+2019-05-26 01:56:37,376 INFO 19515 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:56:37,376 INFO 19515 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:56:37,384 INFO 19515 [egg-watcher:application] watcher start success
+2019-05-26 01:56:37,396 INFO 19515 [egg:core] dump config after ready, 8ms
+2019-05-26 01:56:43,388 INFO 19536 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:56:43,421 INFO 19536 [egg-multipart] stream mode enable
+2019-05-26 01:56:43,749 INFO 19536 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:56:43,792 INFO 19536 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:56:43,796 INFO 19536 [egg-security] use csrf middleware
+2019-05-26 01:56:43,796 INFO 19536 [egg-security] use methodnoallow middleware
+2019-05-26 01:56:43,796 INFO 19536 [egg-security] use noopen middleware
+2019-05-26 01:56:43,796 INFO 19536 [egg-security] use nosniff middleware
+2019-05-26 01:56:43,796 INFO 19536 [egg-security] use xssProtection middleware
+2019-05-26 01:56:43,796 INFO 19536 [egg-security] use xframe middleware
+2019-05-26 01:56:43,800 INFO 19536 [egg-security] use dta middleware
+2019-05-26 01:56:43,800 INFO 19536 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:56:47,564 INFO 19536 [egg:core] dump config after load, 16ms
+2019-05-26 01:56:47,572 INFO 19536 [egg-mongoose] starting...
+2019-05-26 01:56:47,728 INFO 19536 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:56:47,728 INFO 19536 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:56:47,732 INFO 19536 [egg-watcher:application] watcher start success
+2019-05-26 01:56:47,752 INFO 19536 [egg:core] dump config after ready, 16ms
+2019-05-26 01:56:46,396 INFO 19546 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:56:46,428 INFO 19546 [egg-multipart] stream mode enable
+2019-05-26 01:56:46,812 INFO 19546 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:56:46,868 INFO 19546 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:56:46,872 INFO 19546 [egg-security] use csrf middleware
+2019-05-26 01:56:46,872 INFO 19546 [egg-security] use methodnoallow middleware
+2019-05-26 01:56:46,872 INFO 19546 [egg-security] use noopen middleware
+2019-05-26 01:56:46,872 INFO 19546 [egg-security] use nosniff middleware
+2019-05-26 01:56:46,872 INFO 19546 [egg-security] use xssProtection middleware
+2019-05-26 01:56:46,872 INFO 19546 [egg-security] use xframe middleware
+2019-05-26 01:56:46,876 INFO 19546 [egg-security] use dta middleware
+2019-05-26 01:56:46,876 INFO 19546 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:56:49,644 INFO 19546 [egg:core] dump config after load, 4ms
+2019-05-26 01:56:49,648 INFO 19546 [egg-mongoose] starting...
+2019-05-26 01:56:49,672 INFO 19546 [egg-watcher:application] watcher start success
+2019-05-26 01:56:49,676 INFO 19546 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:56:49,680 INFO 19546 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:56:49,696 INFO 19546 [egg:core] dump config after ready, 14ms
+2019-05-26 01:57:01,886 WARN 19546 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:57:13,356 ERROR 19546 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 19546
+hostname: coding.ide
+
+2019-05-26 01:57:31,692 INFO 19753 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:57:31,724 INFO 19753 [egg-multipart] stream mode enable
+2019-05-26 01:57:32,023 INFO 19753 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:57:32,068 INFO 19753 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:57:32,072 INFO 19753 [egg-security] use csrf middleware
+2019-05-26 01:57:32,072 INFO 19753 [egg-security] use methodnoallow middleware
+2019-05-26 01:57:32,072 INFO 19753 [egg-security] use noopen middleware
+2019-05-26 01:57:32,072 INFO 19753 [egg-security] use nosniff middleware
+2019-05-26 01:57:32,072 INFO 19753 [egg-security] use xssProtection middleware
+2019-05-26 01:57:32,072 INFO 19753 [egg-security] use xframe middleware
+2019-05-26 01:57:32,072 INFO 19753 [egg-security] use dta middleware
+2019-05-26 01:57:32,072 INFO 19753 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:57:34,580 INFO 19753 [egg:core] dump config after load, 8ms
+2019-05-26 01:57:34,584 INFO 19753 [egg-mongoose] starting...
+2019-05-26 01:57:34,732 INFO 19753 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:57:34,732 INFO 19753 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:57:34,736 INFO 19753 [egg-watcher:application] watcher start success
+2019-05-26 01:57:34,744 INFO 19753 [egg:core] dump config after ready, 4ms
+2019-05-26 01:57:36,152 INFO 19764 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:57:36,180 INFO 19764 [egg-multipart] stream mode enable
+2019-05-26 01:57:36,466 INFO 19764 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:57:36,544 INFO 19764 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:57:36,546 INFO 19764 [egg-security] use csrf middleware
+2019-05-26 01:57:36,546 INFO 19764 [egg-security] use methodnoallow middleware
+2019-05-26 01:57:36,546 INFO 19764 [egg-security] use noopen middleware
+2019-05-26 01:57:36,548 INFO 19764 [egg-security] use nosniff middleware
+2019-05-26 01:57:36,548 INFO 19764 [egg-security] use xssProtection middleware
+2019-05-26 01:57:36,548 INFO 19764 [egg-security] use xframe middleware
+2019-05-26 01:57:36,548 INFO 19764 [egg-security] use dta middleware
+2019-05-26 01:57:36,548 INFO 19764 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:57:36,556 INFO 19764 [egg:core] dump config after load, 4ms
+2019-05-26 01:57:36,560 INFO 19764 [egg-mongoose] starting...
+2019-05-26 01:57:36,588 INFO 19764 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:57:36,592 INFO 19764 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:57:36,596 INFO 19764 [egg-watcher:application] watcher start success
+2019-05-26 01:57:37,927 INFO 19776 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:57:37,955 INFO 19776 [egg-multipart] stream mode enable
+2019-05-26 01:57:38,208 INFO 19776 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:57:38,292 INFO 19776 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:57:38,298 INFO 19776 [egg-security] use csrf middleware
+2019-05-26 01:57:38,298 INFO 19776 [egg-security] use methodnoallow middleware
+2019-05-26 01:57:38,298 INFO 19776 [egg-security] use noopen middleware
+2019-05-26 01:57:38,298 INFO 19776 [egg-security] use nosniff middleware
+2019-05-26 01:57:38,298 INFO 19776 [egg-security] use xssProtection middleware
+2019-05-26 01:57:38,298 INFO 19776 [egg-security] use xframe middleware
+2019-05-26 01:57:38,298 INFO 19776 [egg-security] use dta middleware
+2019-05-26 01:57:38,298 INFO 19776 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:57:38,308 INFO 19776 [egg:core] dump config after load, 4ms
+2019-05-26 01:57:38,308 INFO 19776 [egg-mongoose] starting...
+2019-05-26 01:57:38,332 INFO 19776 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:57:38,336 INFO 19776 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:57:38,340 INFO 19776 [egg-watcher:application] watcher start success
+2019-05-26 01:57:38,348 INFO 19776 [egg:core] dump config after ready, 8ms
+2019-05-26 01:57:46,968 INFO 19788 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:57:46,996 INFO 19788 [egg-multipart] stream mode enable
+2019-05-26 01:57:47,320 INFO 19788 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:57:47,364 INFO 19788 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:57:47,368 INFO 19788 [egg-security] use csrf middleware
+2019-05-26 01:57:47,368 INFO 19788 [egg-security] use methodnoallow middleware
+2019-05-26 01:57:47,368 INFO 19788 [egg-security] use noopen middleware
+2019-05-26 01:57:47,368 INFO 19788 [egg-security] use nosniff middleware
+2019-05-26 01:57:47,368 INFO 19788 [egg-security] use xssProtection middleware
+2019-05-26 01:57:47,368 INFO 19788 [egg-security] use xframe middleware
+2019-05-26 01:57:47,368 INFO 19788 [egg-security] use dta middleware
+2019-05-26 01:57:47,368 INFO 19788 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:57:47,381 INFO 19788 [egg:core] dump config after load, 7ms
+2019-05-26 01:57:47,384 INFO 19788 [egg-mongoose] starting...
+2019-05-26 01:57:47,408 INFO 19788 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:57:47,408 INFO 19788 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:57:47,412 INFO 19788 [egg-watcher:application] watcher start success
+2019-05-26 01:57:47,422 INFO 19788 [egg:core] dump config after ready, 6ms
+2019-05-26 01:58:01,260 WARN 19788 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 01:58:12,612 ERROR 19788 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 19788
+hostname: coding.ide
+
+2019-05-26 01:58:24,972 INFO 20066 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:58:25,004 INFO 20066 [egg-multipart] stream mode enable
+2019-05-26 01:58:25,292 INFO 20066 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:58:25,377 INFO 20066 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:58:25,377 INFO 20066 [egg-security] use csrf middleware
+2019-05-26 01:58:25,380 INFO 20066 [egg-security] use methodnoallow middleware
+2019-05-26 01:58:25,380 INFO 20066 [egg-security] use noopen middleware
+2019-05-26 01:58:25,380 INFO 20066 [egg-security] use nosniff middleware
+2019-05-26 01:58:25,380 INFO 20066 [egg-security] use xssProtection middleware
+2019-05-26 01:58:25,380 INFO 20066 [egg-security] use xframe middleware
+2019-05-26 01:58:25,380 INFO 20066 [egg-security] use dta middleware
+2019-05-26 01:58:25,380 INFO 20066 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:58:28,320 INFO 20066 [egg:core] dump config after load, 2ms
+2019-05-26 01:58:28,324 INFO 20066 [egg-mongoose] starting...
+2019-05-26 01:58:28,352 INFO 20066 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:58:28,352 INFO 20066 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:58:28,358 INFO 20066 [egg-watcher:application] watcher start success
+2019-05-26 01:58:28,396 INFO 20066 [egg:core] dump config after ready, 17ms
+2019-05-26 01:58:25,980 INFO 20075 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 01:58:26,016 INFO 20075 [egg-multipart] stream mode enable
+2019-05-26 01:58:26,468 INFO 20075 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 01:58:26,540 INFO 20075 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 01:58:26,544 INFO 20075 [egg-security] use csrf middleware
+2019-05-26 01:58:26,544 INFO 20075 [egg-security] use methodnoallow middleware
+2019-05-26 01:58:26,544 INFO 20075 [egg-security] use noopen middleware
+2019-05-26 01:58:26,544 INFO 20075 [egg-security] use nosniff middleware
+2019-05-26 01:58:26,544 INFO 20075 [egg-security] use xssProtection middleware
+2019-05-26 01:58:26,544 INFO 20075 [egg-security] use xframe middleware
+2019-05-26 01:58:26,544 INFO 20075 [egg-security] use dta middleware
+2019-05-26 01:58:26,544 INFO 20075 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 01:58:29,656 INFO 20075 [egg:core] dump config after load, 8ms
+2019-05-26 01:58:29,660 INFO 20075 [egg-mongoose] starting...
+2019-05-26 01:58:29,804 INFO 20075 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 01:58:29,804 INFO 20075 [egg-mongoose] instance[0] start successfully
+2019-05-26 01:58:29,808 INFO 20075 [egg-watcher:application] watcher start success
+2019-05-26 01:58:29,822 INFO 20075 [egg:core] dump config after ready, 10ms
+2019-05-26 01:59:01,872 WARN 20075 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:00:02,266 WARN 20075 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:00:02,824 ERROR 20075 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 20075
+hostname: coding.ide
+
+2019-05-26 02:00:50,032 ERROR 20075 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 20075
+hostname: coding.ide
+
+2019-05-26 02:01:01,372 WARN 20075 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:02:02,128 WARN 20075 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:03:01,610 WARN 20075 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:04:02,080 WARN 20075 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:04:43,064 INFO 24401 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 02:04:43,092 INFO 24401 [egg-multipart] stream mode enable
+2019-05-26 02:04:43,681 INFO 24401 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 02:04:43,764 INFO 24401 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 02:04:43,768 INFO 24401 [egg-security] use csrf middleware
+2019-05-26 02:04:43,768 INFO 24401 [egg-security] use methodnoallow middleware
+2019-05-26 02:04:43,768 INFO 24401 [egg-security] use noopen middleware
+2019-05-26 02:04:43,768 INFO 24401 [egg-security] use nosniff middleware
+2019-05-26 02:04:43,768 INFO 24401 [egg-security] use xssProtection middleware
+2019-05-26 02:04:43,768 INFO 24401 [egg-security] use xframe middleware
+2019-05-26 02:04:43,768 INFO 24401 [egg-security] use dta middleware
+2019-05-26 02:04:43,768 INFO 24401 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 02:04:43,782 INFO 24401 [egg:core] dump config after load, 6ms
+2019-05-26 02:04:43,784 INFO 24401 [egg-mongoose] starting...
+2019-05-26 02:04:43,812 INFO 24401 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 02:04:43,812 INFO 24401 [egg-mongoose] instance[0] start successfully
+2019-05-26 02:04:43,816 INFO 24401 [egg-watcher:application] watcher start success
+2019-05-26 02:04:43,836 INFO 24401 [egg:core] dump config after ready, 16ms
+2019-05-26 02:04:52,217 ERROR 24401 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 24401
+hostname: coding.ide
+
+2019-05-26 02:05:01,460 WARN 24401 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:05:12,429 ERROR 24401 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 24401
+hostname: coding.ide
+
+2019-05-26 02:06:01,908 WARN 24401 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:06:13,332 ERROR 24401 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 24401
+hostname: coding.ide
+
+2019-05-26 02:07:01,340 WARN 24401 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:07:14,948 ERROR 24401 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 24401
+hostname: coding.ide
+
+2019-05-26 02:08:01,901 WARN 24401 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:09:18,480 INFO 25760 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 02:09:18,528 INFO 25760 [egg-multipart] stream mode enable
+2019-05-26 02:09:18,865 INFO 25760 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 02:09:18,924 INFO 25760 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 02:09:18,928 INFO 25760 [egg-security] use csrf middleware
+2019-05-26 02:09:18,932 INFO 25760 [egg-security] use methodnoallow middleware
+2019-05-26 02:09:18,932 INFO 25760 [egg-security] use noopen middleware
+2019-05-26 02:09:18,932 INFO 25760 [egg-security] use nosniff middleware
+2019-05-26 02:09:18,936 INFO 25760 [egg-security] use xssProtection middleware
+2019-05-26 02:09:18,936 INFO 25760 [egg-security] use xframe middleware
+2019-05-26 02:09:18,936 INFO 25760 [egg-security] use dta middleware
+2019-05-26 02:09:18,936 INFO 25760 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 02:09:18,955 INFO 25760 [egg:core] dump config after load, 11ms
+2019-05-26 02:09:18,956 INFO 25760 [egg-mongoose] starting...
+2019-05-26 02:09:18,996 INFO 25760 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 02:09:18,996 INFO 25760 [egg-mongoose] instance[0] start successfully
+2019-05-26 02:09:19,008 INFO 25760 [egg-watcher:application] watcher start success
+2019-05-26 02:09:19,028 INFO 25760 [egg:core] dump config after ready, 13ms
+2019-05-26 02:09:18,480 INFO 25759 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 02:09:18,514 INFO 25759 [egg-multipart] stream mode enable
+2019-05-26 02:09:18,900 INFO 25759 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 02:09:18,980 INFO 25759 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 02:09:18,980 INFO 25759 [egg-security] use csrf middleware
+2019-05-26 02:09:18,980 INFO 25759 [egg-security] use methodnoallow middleware
+2019-05-26 02:09:18,980 INFO 25759 [egg-security] use noopen middleware
+2019-05-26 02:09:18,984 INFO 25759 [egg-security] use nosniff middleware
+2019-05-26 02:09:18,989 INFO 25759 [egg-security] use xssProtection middleware
+2019-05-26 02:09:18,989 INFO 25759 [egg-security] use xframe middleware
+2019-05-26 02:09:18,989 INFO 25759 [egg-security] use dta middleware
+2019-05-26 02:09:18,989 INFO 25759 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 02:09:19,003 INFO 25759 [egg:core] dump config after load, 7ms
+2019-05-26 02:09:19,004 INFO 25759 [egg-mongoose] starting...
+2019-05-26 02:09:19,042 INFO 25759 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 02:09:19,042 INFO 25759 [egg-mongoose] instance[0] start successfully
+2019-05-26 02:09:19,044 INFO 25759 [egg-watcher:application] watcher start success
+2019-05-26 02:09:19,055 INFO 25759 [egg:core] dump config after ready, 8ms
+2019-05-26 02:10:01,692 WARN 25760 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:10:01,692 WARN 25759 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:10:57,508 INFO 25861 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 02:10:57,536 INFO 25861 [egg-multipart] stream mode enable
+2019-05-26 02:10:57,837 INFO 25861 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 02:10:57,908 INFO 25861 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 02:10:57,912 INFO 25861 [egg-security] use csrf middleware
+2019-05-26 02:10:57,912 INFO 25861 [egg-security] use methodnoallow middleware
+2019-05-26 02:10:57,912 INFO 25861 [egg-security] use noopen middleware
+2019-05-26 02:10:57,912 INFO 25861 [egg-security] use nosniff middleware
+2019-05-26 02:10:57,912 INFO 25861 [egg-security] use xssProtection middleware
+2019-05-26 02:10:57,916 INFO 25861 [egg-security] use xframe middleware
+2019-05-26 02:10:57,916 INFO 25861 [egg-security] use dta middleware
+2019-05-26 02:10:57,916 INFO 25861 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 02:10:57,924 INFO 25861 [egg:core] dump config after load, 2ms
+2019-05-26 02:10:57,928 INFO 25861 [egg-mongoose] starting...
+2019-05-26 02:10:57,956 INFO 25861 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 02:10:57,960 INFO 25861 [egg-mongoose] instance[0] start successfully
+2019-05-26 02:10:57,964 INFO 25861 [egg-watcher:application] watcher start success
+2019-05-26 02:10:57,976 INFO 25861 [egg:core] dump config after ready, 7ms
+2019-05-26 02:11:02,201 WARN 25861 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:11:15,648 ERROR 25861 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 25861
+hostname: coding.ide
+
+2019-05-26 02:12:01,576 WARN 25861 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:12:12,820 ERROR 25861 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 25861
+hostname: coding.ide
+
+2019-05-26 02:13:02,096 WARN 25861 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:14:01,428 WARN 25861 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:14:12,985 ERROR 25861 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 25861
+hostname: coding.ide
+
+2019-05-26 02:15:01,928 WARN 25861 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:15:14,418 ERROR 25861 nodejs.unhandledRejectionError: Exited with code 3
+    at ChildProcess.cp.once.code (/home/coding/workspace/myMovie/node_modules/opn/index.js:85:13)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:915:16)
+    at Socket.stream.socket.on (internal/child_process.js:336:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:561:12)
+name: "unhandledRejectionError"
+pid: 25861
+hostname: coding.ide
+
+2019-05-26 02:16:33,972 INFO 27325 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 02:16:34,012 INFO 27325 [egg-multipart] stream mode enable
+2019-05-26 02:16:34,340 INFO 27325 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 02:16:34,396 INFO 27325 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 02:16:34,400 INFO 27325 [egg-security] use csrf middleware
+2019-05-26 02:16:34,400 INFO 27325 [egg-security] use methodnoallow middleware
+2019-05-26 02:16:34,400 INFO 27325 [egg-security] use noopen middleware
+2019-05-26 02:16:34,405 INFO 27325 [egg-security] use nosniff middleware
+2019-05-26 02:16:34,406 INFO 27325 [egg-security] use xssProtection middleware
+2019-05-26 02:16:34,408 INFO 27325 [egg-security] use xframe middleware
+2019-05-26 02:16:34,408 INFO 27325 [egg-security] use dta middleware
+2019-05-26 02:16:34,408 INFO 27325 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 02:16:34,433 INFO 27325 [egg:core] dump config after load, 5ms
+2019-05-26 02:16:34,436 INFO 27325 [egg-mongoose] starting...
+2019-05-26 02:16:34,465 INFO 27325 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 02:16:34,468 INFO 27325 [egg-mongoose] instance[0] start successfully
+2019-05-26 02:16:34,480 INFO 27325 [egg-watcher:application] watcher start success
+2019-05-26 02:16:34,500 INFO 27325 [egg:core] dump config after ready, 16ms
+2019-05-26 02:16:34,136 INFO 27326 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 02:16:34,176 INFO 27326 [egg-multipart] stream mode enable
+2019-05-26 02:16:34,480 INFO 27326 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 02:16:34,536 INFO 27326 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 02:16:34,540 INFO 27326 [egg-security] use csrf middleware
+2019-05-26 02:16:34,544 INFO 27326 [egg-security] use methodnoallow middleware
+2019-05-26 02:16:34,544 INFO 27326 [egg-security] use noopen middleware
+2019-05-26 02:16:34,547 INFO 27326 [egg-security] use nosniff middleware
+2019-05-26 02:16:34,547 INFO 27326 [egg-security] use xssProtection middleware
+2019-05-26 02:16:34,548 INFO 27326 [egg-security] use xframe middleware
+2019-05-26 02:16:34,548 INFO 27326 [egg-security] use dta middleware
+2019-05-26 02:16:34,548 INFO 27326 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 02:16:34,560 INFO 27326 [egg:core] dump config after load, 4ms
+2019-05-26 02:16:34,564 INFO 27326 [egg-mongoose] starting...
+2019-05-26 02:16:34,588 INFO 27326 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 02:16:34,588 INFO 27326 [egg-mongoose] instance[0] start successfully
+2019-05-26 02:16:34,596 INFO 27326 [egg-watcher:application] watcher start success
+2019-05-26 02:16:34,600 INFO 27326 [egg:core] dump config after ready, 4ms
+2019-05-26 02:17:01,830 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:17:01,832 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:18:01,244 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:18:01,240 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:19:01,712 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:19:01,712 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:20:02,172 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:20:02,172 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:21:01,256 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:21:01,256 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:22:02,056 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:22:02,061 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:23:01,494 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:23:01,489 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:24:01,937 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:24:01,937 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:25:01,424 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:25:01,428 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:26:01,904 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:26:01,904 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:27:01,308 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:27:01,308 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:28:01,768 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:28:01,768 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:29:01,275 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:29:01,275 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:30:01,696 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:30:01,696 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:31:02,175 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:31:02,176 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:32:01,685 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:32:01,688 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:33:02,048 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:33:02,044 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:34:01,496 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:34:01,492 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:35:01,964 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:35:01,968 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:36:01,360 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:36:01,360 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:37:01,868 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:37:01,861 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:38:01,248 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:38:01,244 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:39:01,704 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:39:01,700 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:40:02,140 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:40:02,140 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:41:01,276 WARN 27326 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:41:01,273 WARN 27325 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:41:59,922 INFO 27782 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 02:41:59,952 INFO 27782 [egg-multipart] stream mode enable
+2019-05-26 02:42:00,216 INFO 27782 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 02:42:00,260 INFO 27782 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 02:42:00,268 INFO 27782 [egg-security] use csrf middleware
+2019-05-26 02:42:00,268 INFO 27782 [egg-security] use methodnoallow middleware
+2019-05-26 02:42:00,268 INFO 27782 [egg-security] use noopen middleware
+2019-05-26 02:42:00,273 INFO 27782 [egg-security] use nosniff middleware
+2019-05-26 02:42:00,273 INFO 27782 [egg-security] use xssProtection middleware
+2019-05-26 02:42:00,273 INFO 27782 [egg-security] use xframe middleware
+2019-05-26 02:42:00,273 INFO 27782 [egg-security] use dta middleware
+2019-05-26 02:42:00,276 INFO 27782 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 02:42:00,296 INFO 27782 [egg:core] dump config after load, 11ms
+2019-05-26 02:42:00,300 INFO 27782 [egg-mongoose] starting...
+2019-05-26 02:42:00,328 INFO 27782 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 02:42:00,328 INFO 27782 [egg-mongoose] instance[0] start successfully
+2019-05-26 02:42:00,336 INFO 27782 [egg-watcher:application] watcher start success
+2019-05-26 02:42:00,356 INFO 27782 [egg:core] dump config after ready, 12ms
+2019-05-26 02:42:00,184 INFO 27781 [egg:logger] init all loggers with options: {"dir":"/home/coding/workspace/myMovie/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 02:42:00,236 INFO 27781 [egg-multipart] stream mode enable
+2019-05-26 02:42:00,532 INFO 27781 [egg-mongoose] connecting mongodb://127.0.0.1/test
+2019-05-26 02:42:00,580 INFO 27781 [egg-static] starting static serve /public/ -> /home/coding/workspace/myMovie/public
+2019-05-26 02:42:00,581 INFO 27781 [egg-security] use csrf middleware
+2019-05-26 02:42:00,581 INFO 27781 [egg-security] use methodnoallow middleware
+2019-05-26 02:42:00,584 INFO 27781 [egg-security] use noopen middleware
+2019-05-26 02:42:00,584 INFO 27781 [egg-security] use nosniff middleware
+2019-05-26 02:42:00,584 INFO 27781 [egg-security] use xssProtection middleware
+2019-05-26 02:42:00,584 INFO 27781 [egg-security] use xframe middleware
+2019-05-26 02:42:00,584 INFO 27781 [egg-security] use dta middleware
+2019-05-26 02:42:00,584 INFO 27781 [egg-security] compose 7 middlewares into one security middleware
+2019-05-26 02:42:00,592 INFO 27781 [egg:core] dump config after load, 4ms
+2019-05-26 02:42:00,596 INFO 27781 [egg-mongoose] starting...
+2019-05-26 02:42:00,620 INFO 27781 [egg-mongoose] mongodb://127.0.0.1/test connected successfully
+2019-05-26 02:42:00,623 INFO 27781 [egg-mongoose] instance[0] start successfully
+2019-05-26 02:42:00,627 INFO 27781 [egg-watcher:application] watcher start success
+2019-05-26 02:42:00,636 INFO 27781 [egg:core] dump config after ready, 8ms
+2019-05-26 02:42:02,052 WARN 27781 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 02:42:02,048 WARN 27782 [ClusterClient:Watcher] follower closed, and try to init it again
