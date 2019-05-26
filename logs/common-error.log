@@ -1271,3 +1271,286 @@ name: "unhandledRejectionError"
 pid: 25861
 hostname: coding.ide
 
+2019-05-26 21:15:35,845 ERROR 10968 nodejs.ServerNoResponseError: server 127.0.0.1:52307 no response in 39999ms, maybe the socket is end on the other side. (address: 127.0.0.1:52307)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ServerNoResponseError"
+pid: 10968
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 21:22:43,588 ERROR 2036 nodejs.ClusterClientNoResponseError: client no response in 487748ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2036
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 21:24:40,874 ERROR 2452 [-/undefined/-/11755ms GET /] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:704:5)
+    at Socket._write (net.js:716:8)
+    at doWrite (_stream_writable.js:410:12)
+    at clearBuffer (_stream_writable.js:540:7)
+    at Socket.Writable.uncork (_stream_writable.js:314:7)
+    at ServerResponse.end (_http_outgoing.js:721:21)
+    at respond (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:239:43)
+    at handleResponse (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 2452
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 21:37:36,599 ERROR 8884 [-/undefined/-/32138ms GET /] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:704:5)
+    at Socket._write (net.js:716:8)
+    at doWrite (_stream_writable.js:410:12)
+    at clearBuffer (_stream_writable.js:540:7)
+    at Socket.Writable.uncork (_stream_writable.js:314:7)
+    at ServerResponse.end (_http_outgoing.js:721:21)
+    at respond (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:239:43)
+    at handleResponse (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 8884
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 21:40:16,306 ERROR 7972 [-/undefined/-/9632ms GET /] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:704:5)
+    at Socket._write (net.js:716:8)
+    at doWrite (_stream_writable.js:410:12)
+    at clearBuffer (_stream_writable.js:540:7)
+    at Socket.Writable.uncork (_stream_writable.js:314:7)
+    at ServerResponse.end (_http_outgoing.js:721:21)
+    at respond (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:239:43)
+    at handleResponse (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 7972
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 21:43:15,503 ERROR 5848 nodejs.ServerNoResponseError: server 127.0.0.1:52811 no response in 20007ms, maybe the socket is end on the other side. (address: 127.0.0.1:52811)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ServerNoResponseError"
+pid: 5848
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 21:46:23,160 ERROR 10880 nodejs.ClusterClientNoResponseError: client no response in 227682ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 10880
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 22:04:47,117 ERROR 4628 [-/undefined/-/12342ms GET /] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:704:5)
+    at Socket._write (net.js:716:8)
+    at doWrite (_stream_writable.js:410:12)
+    at clearBuffer (_stream_writable.js:540:7)
+    at Socket.Writable.uncork (_stream_writable.js:314:7)
+    at ServerResponse.end (_http_outgoing.js:721:21)
+    at respond (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:239:43)
+    at handleResponse (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 4628
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 22:37:32,730 ERROR 10304 [-/undefined/-/10891ms GET /] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:704:5)
+    at Socket._write (net.js:716:8)
+    at doWrite (_stream_writable.js:410:12)
+    at clearBuffer (_stream_writable.js:540:7)
+    at Socket.Writable.uncork (_stream_writable.js:314:7)
+    at ServerResponse.end (_http_outgoing.js:721:21)
+    at respond (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:239:43)
+    at handleResponse (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 10304
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 22:42:44,328 ERROR 7896 [-/undefined/-/3218ms GET /] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:704:5)
+    at Socket._write (net.js:716:8)
+    at doWrite (_stream_writable.js:410:12)
+    at clearBuffer (_stream_writable.js:540:7)
+    at Socket.Writable.uncork (_stream_writable.js:314:7)
+    at ServerResponse.end (_http_outgoing.js:721:21)
+    at respond (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:239:43)
+    at handleResponse (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 7896
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 22:57:20,086 ERROR 8688 [-/::1/-/124ms GET /] nodejs.TypeError: Cannot read property 'title' of undefined
+    at data.map.item (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:8:21)
+    at Array.map (<anonymous>)
+    at HomeController.index (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:7:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8688
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 23:20:24,612 ERROR 8688 [-/::1/-/156ms GET /] nodejs.TypeError: Cannot read property 'title' of undefined
+    at data.map.item (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:8:21)
+    at Array.map (<anonymous>)
+    at HomeController.index (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:7:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8688
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 23:22:22,957 ERROR 8688 [-/::1/-/126ms GET /] nodejs.TypeError: Cannot read property 'title' of undefined
+    at data.map.item (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:8:21)
+    at Array.map (<anonymous>)
+    at HomeController.index (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:7:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8688
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 23:23:07,314 ERROR 8688 [-/::1/-/169ms GET /] nodejs.TypeError: Cannot read property 'title' of undefined
+    at data.map.item (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:8:21)
+    at Array.map (<anonymous>)
+    at HomeController.index (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:7:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8688
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 23:26:21,734 ERROR 8688 [-/::1/-/133ms GET /] nodejs.TypeError: Cannot read property 'title' of undefined
+    at data.map.item (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:8:21)
+    at Array.map (<anonymous>)
+    at HomeController.index (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:7:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8688
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 23:27:02,997 ERROR 8688 [-/::1/-/143ms GET /] nodejs.TypeError: Cannot read property 'title' of undefined
+    at data.map.item (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:8:21)
+    at Array.map (<anonymous>)
+    at HomeController.index (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:7:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8688
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 23:27:37,853 ERROR 8688 [-/::1/-/323ms GET /] nodejs.TypeError: Cannot read property 'title' of undefined
+    at data.map.item (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:8:21)
+    at Array.map (<anonymous>)
+    at HomeController.index (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:7:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8688
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 23:28:53,607 ERROR 8688 [-/::1/-/226ms GET /] nodejs.TypeError: Cannot read property 'title' of undefined
+    at data.map.item (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:8:21)
+    at Array.map (<anonymous>)
+    at HomeController.index (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\home.ts:7:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8688
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 23:35:44,489 ERROR 7904 [-/undefined/-/7091ms GET /] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:704:5)
+    at Socket._write (net.js:716:8)
+    at doWrite (_stream_writable.js:410:12)
+    at clearBuffer (_stream_writable.js:540:7)
+    at Socket.Writable.uncork (_stream_writable.js:314:7)
+    at ServerResponse.end (_http_outgoing.js:721:21)
+    at respond (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:239:43)
+    at handleResponse (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 7904
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 23:36:24,340 ERROR 7904 [-/::1/-/19ms GET /detail?id=5ceaa71721edd921f02e5b45] nodejs.TypeError: Cannot read property 'title' of undefined
+    at HomeController.index (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\detail.ts:9:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7904
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 23:37:15,633 ERROR 7904 [-/::1/-/6483ms GET /detail?id=5ceaa71721edd921f02e5b45] nodejs.TypeError: Cannot read property 'title' of undefined
+    at HomeController.index (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\detail.ts:9:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7904
+hostname: DESKTOP-VI1R32M
+
+2019-05-26 23:37:33,245 ERROR 6968 [-/::1/-/2539ms GET /detail?id=5ceaa71721edd921f02e5b45] nodejs.TypeError: Cannot read property 'title' of undefined
+    at Detail.render (webpack:///./app/web/page/detail/component/Detail.tsx?:66:28)
+    at processChild (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2959:18)
+    at resolve (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2812:5)
+    at ReactDOMServerRenderer.render (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3202:22)
+    at ReactDOMServerRenderer.read (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3161:29)
+    at Object.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3646:27)
+    at Engine.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:130:27)
+    at Engine.renderElement (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:100:35)
+    at C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6968
+hostname: DESKTOP-VI1R32M
+

@@ -10,7 +10,8 @@ export default class List extends Component {
 	render() {
 		return (<div className="marTop">
 			{this.props.list.map((item, i) => {
-				return <Item key={i} id={item._id} img={item.info.poster} title={item.info.title} />;
+				console.log(item)
+				return <Item key={i} id={item._id} img={item.poster} title={item.title} />;
 			})}
 		</div>)
 	}

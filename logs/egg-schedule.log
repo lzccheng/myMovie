@@ -607,3 +607,132 @@
 2019-05-26 02:42:03,764 INFO 27812 [Timer] /home/coding/workspace/myMovie/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 6476240ms at 2019-05-26 04:30:00.004
 2019-05-26 02:42:03,765 INFO 27812 [Timer] /home/coding/workspace/myMovie/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 76676236ms at 2019-05-27 00:00:00.001
 2019-05-26 02:42:03,766 INFO 27812 [Timer] /home/coding/workspace/myMovie/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 76677235ms at 2019-05-27 00:00:01.001
+2019-05-26 20:23:21,879 INFO 9352 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 20:23:21,879 INFO 9352 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 20:23:21,879 INFO 9352 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 20:26:47,313 INFO 4344 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 20:26:47,313 INFO 4344 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 20:26:47,313 INFO 4344 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 21:01:58,940 INFO 1400 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 21:01:58,940 INFO 1400 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 21:01:58,940 INFO 1400 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 21:01:58,956 INFO 10060 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 21:01:58,957 INFO 10060 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 21:01:58,957 INFO 10060 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 21:01:58,941 INFO 6756 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 21:01:58,941 INFO 6756 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 21:01:58,941 INFO 6756 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 21:01:58,940 INFO 7820 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 21:01:58,940 INFO 7820 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 21:01:58,940 INFO 7820 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 21:02:43,186 INFO 536 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 26836837ms at 2019-05-27 04:30:00.023
+2019-05-26 21:02:43,187 INFO 536 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 10636814ms at 2019-05-27 00:00:00.001
+2019-05-26 21:02:43,187 INFO 536 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 10637813ms at 2019-05-27 00:00:01.000
+2019-05-26 21:05:05,390 INFO 10968 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 21:05:05,390 INFO 10968 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 21:05:05,390 INFO 10968 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 21:10:33,828 INFO 2036 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 26366182ms at 2019-05-27 04:30:00.010
+2019-05-26 21:10:33,829 INFO 2036 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 10166171ms at 2019-05-27 00:00:00.000
+2019-05-26 21:10:33,830 INFO 2036 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 10167170ms at 2019-05-27 00:00:01.000
+2019-05-26 21:23:33,307 INFO 2452 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 21:23:33,307 INFO 2452 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 21:23:33,307 INFO 2452 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 21:23:42,242 INFO 2404 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 25577766ms at 2019-05-27 04:30:00.008
+2019-05-26 21:23:42,243 INFO 2404 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 9377757ms at 2019-05-27 00:00:00.000
+2019-05-26 21:23:42,243 INFO 2404 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 9378757ms at 2019-05-27 00:00:01.000
+2019-05-26 21:36:17,419 INFO 8884 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 21:36:17,419 INFO 8884 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 21:36:17,419 INFO 8884 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 21:36:26,343 INFO 1496 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 24813667ms at 2019-05-27 04:30:00.010
+2019-05-26 21:36:26,344 INFO 1496 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 8613657ms at 2019-05-27 00:00:00.001
+2019-05-26 21:36:26,344 INFO 1496 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 8614656ms at 2019-05-27 00:00:01.000
+2019-05-26 21:39:41,353 INFO 7972 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 21:39:41,353 INFO 7972 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 21:39:41,353 INFO 7972 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 21:39:46,883 INFO 10880 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 24613126ms at 2019-05-27 04:30:00.009
+2019-05-26 21:39:46,883 INFO 10880 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 8413117ms at 2019-05-27 00:00:00.000
+2019-05-26 21:39:46,883 INFO 10880 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 8414117ms at 2019-05-27 00:00:01.000
+2019-05-26 21:41:19,429 INFO 10936 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 21:41:19,429 INFO 10936 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 21:41:19,429 INFO 10936 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 21:41:50,156 INFO 10968 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 21:41:50,156 INFO 10968 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 21:41:50,156 INFO 10968 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 21:42:29,178 INFO 5848 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 21:42:29,178 INFO 5848 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 21:42:29,178 INFO 5848 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 22:03:49,490 INFO 6040 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 22:03:49,490 INFO 6040 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 22:03:49,490 INFO 6040 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 22:03:55,549 INFO 10228 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 23164458ms at 2019-05-27 04:30:00.007
+2019-05-26 22:03:55,549 INFO 10228 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 6964451ms at 2019-05-27 00:00:00.000
+2019-05-26 22:03:55,550 INFO 10228 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 6965451ms at 2019-05-27 00:00:01.001
+2019-05-26 22:04:02,475 INFO 4628 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 22:04:02,475 INFO 4628 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 22:04:02,475 INFO 4628 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 22:05:46,998 INFO 2716 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 22:05:46,998 INFO 2716 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 22:05:46,998 INFO 2716 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 22:06:20,634 INFO 1820 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 22:06:20,634 INFO 1820 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 22:06:20,634 INFO 1820 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 22:20:09,448 INFO 10680 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 22:20:09,448 INFO 10680 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 22:20:09,448 INFO 10680 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 22:20:15,732 INFO 1848 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 22184277ms at 2019-05-27 04:30:00.009
+2019-05-26 22:20:15,732 INFO 1848 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 5984268ms at 2019-05-27 00:00:00.000
+2019-05-26 22:20:15,733 INFO 1848 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 5985268ms at 2019-05-27 00:00:01.001
+2019-05-26 22:29:53,666 INFO 11244 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 22:29:53,666 INFO 11244 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 22:29:53,666 INFO 11244 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 22:29:59,937 INFO 1380 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 21600071ms at 2019-05-27 04:30:00.008
+2019-05-26 22:29:59,937 INFO 1380 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 5400063ms at 2019-05-27 00:00:00.000
+2019-05-26 22:29:59,938 INFO 1380 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 5401063ms at 2019-05-27 00:00:01.001
+2019-05-26 22:31:14,667 INFO 9808 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 22:31:14,667 INFO 9808 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 22:31:14,667 INFO 9808 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 22:33:19,763 INFO 1208 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 22:33:19,764 INFO 1208 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 22:33:19,764 INFO 1208 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 22:36:57,452 INFO 10304 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 22:36:57,452 INFO 10304 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 22:36:57,452 INFO 10304 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 22:36:59,107 INFO 6192 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 21180906ms at 2019-05-27 04:30:00.013
+2019-05-26 22:36:59,107 INFO 6192 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 4980893ms at 2019-05-27 00:00:00.000
+2019-05-26 22:36:59,107 INFO 6192 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 4981893ms at 2019-05-27 00:00:01.000
+2019-05-26 22:42:18,763 INFO 7896 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 22:42:18,763 INFO 7896 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 22:42:18,763 INFO 7896 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 22:42:20,169 INFO 9876 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 20859842ms at 2019-05-27 04:30:00.011
+2019-05-26 22:42:20,170 INFO 9876 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 4659831ms at 2019-05-27 00:00:00.001
+2019-05-26 22:42:20,170 INFO 9876 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 4660830ms at 2019-05-27 00:00:01.000
+2019-05-26 22:46:22,945 INFO 5184 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 22:46:22,946 INFO 5184 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 22:46:22,946 INFO 5184 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 22:46:43,094 INFO 8688 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 22:46:43,094 INFO 8688 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 22:46:43,094 INFO 8688 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 23:23:11,398 INFO 2108 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 23:23:11,398 INFO 2108 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 23:23:11,398 INFO 2108 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 23:29:22,831 INFO 6784 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 23:29:22,831 INFO 6784 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 23:29:22,831 INFO 6784 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 23:29:57,258 INFO 5708 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 23:29:57,258 INFO 5708 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 23:29:57,258 INFO 5708 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 23:30:36,658 INFO 11064 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 17963353ms at 2019-05-27 04:30:00.011
+2019-05-26 23:30:36,659 INFO 11064 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 1763341ms at 2019-05-27 00:00:00.000
+2019-05-26 23:30:36,659 INFO 11064 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 1764341ms at 2019-05-27 00:00:01.000
+2019-05-26 23:34:56,005 INFO 7904 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 23:34:56,006 INFO 7904 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 23:34:56,006 INFO 7904 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 23:35:13,292 INFO 8440 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 17686718ms at 2019-05-27 04:30:00.010
+2019-05-26 23:35:13,292 INFO 8440 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 1486708ms at 2019-05-27 00:00:00.000
+2019-05-26 23:35:13,293 INFO 8440 [Timer] C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 1487708ms at 2019-05-27 00:00:01.001
+2019-05-26 23:37:21,843 INFO 6968 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 23:37:21,843 INFO 6968 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 23:37:21,843 INFO 6968 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-26 23:38:23,444 INFO 2900 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-26 23:38:23,445 INFO 2900 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-26 23:38:23,445 INFO 2900 [egg-schedule]: register schedule C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

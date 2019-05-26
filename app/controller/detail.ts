@@ -6,7 +6,7 @@ export default class HomeController extends Controller {
     let data = await ctx.model.Movie.findOne({ _id: query.id });
     console.log(data)
     await ctx.render('detail.js', {
-      title: data.info.title,
+      title: data.title,
       keywords: '最新电影，电影，好看电影',
       description: '最新电影尽在88影视院',
       data

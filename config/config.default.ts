@@ -29,7 +29,7 @@ export default function(app: EggAppConfig) {
   };
 
   exports.mongoose = {
-    url: 'mongodb://127.0.0.1/test',
+    url: 'mongodb://127.0.0.1/movies',
     options: {},
     // mongoose global plugins, expected a function or an array of function and options
     // plugins: [createdPlugin, [updatedPlugin, pluginOptions]],

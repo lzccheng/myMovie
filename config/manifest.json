@@ -1,38 +1,38 @@
 {
-  "common.css": "/public/css/common.f048db1b.css",
-  "common.js": "/public/js/chunk/common.5fa367f3.js",
-  "detail.css": "/public/css/detail.5e0442d6.css",
-  "detail.js": "/public/js/chunk/detail.9ae692ce.js",
-  "home.css": "/public/css/home.ee260b16.css",
-  "home.js": "/public/js/chunk/home.31df193f.js",
-  "runtime.js": "/public/js/runtime.5af51cbf.js",
+  "common.css": "/public/css/common.css",
+  "common.js": "/public/js/chunk/common.js",
+  "detail.css": "/public/css/detail.css",
+  "detail.js": "/public/js/chunk/detail.js",
+  "home.css": "/public/css/home.css",
+  "home.js": "/public/js/chunk/home.js",
+  "runtime.js": "/public/js/runtime.js",
   "deps": {
     "home.js": {
       "js": [
-        "/public/js/runtime.5af51cbf.js",
-        "/public/js/chunk/common.5fa367f3.js",
-        "/public/js/chunk/home.31df193f.js"
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/home.js"
       ],
       "css": [
-        "/public/css/common.f048db1b.css",
-        "/public/css/home.ee260b16.css"
+        "/public/css/common.css",
+        "/public/css/home.css"
       ]
     },
     "detail.js": {
       "js": [
-        "/public/js/runtime.5af51cbf.js",
-        "/public/js/chunk/common.5fa367f3.js",
-        "/public/js/chunk/detail.9ae692ce.js"
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/detail.js"
       ],
       "css": [
-        "/public/css/common.f048db1b.css",
-        "/public/css/detail.5e0442d6.css"
+        "/public/css/common.css",
+        "/public/css/detail.css"
       ]
     }
   },
   "info": {
     "publicPath": "/public/",
-    "buildPath": "public",
+    "buildPath": "\\public",
     "mapped": true
   }
 }

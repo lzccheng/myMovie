@@ -29,15 +29,15 @@ export default class Detail extends Component {
 					<div className="col detail_top"><a href="/">首页</a> / 详情</div>
 				</div>
 				<div className="row">
-					<h4 className="col text-center">{this.props.data.info.title}</h4>
+					<h4 className="col text-center">{this.props.data.title}</h4>
 				</div>
 				<div className="row text-center">
 					<div className="col text-center">
-						<img width="80%" src={this.props.data.info.poster} />
+						<img width="80%" src={this.props.data.poster} />
 					</div>
 				</div>
 				<div className="row introduce">
-					{this.props.data.info.introduction.map((item, i) => {
+					{this.props.data.introduction.map((item, i) => {
 						return (<div key={i} className="introduce">
 						  {item}
 					  </div>)
@@ -45,7 +45,7 @@ export default class Detail extends Component {
 				</div>
 				<div className="row text-center">
 					<div className="col text-center">
-						{this.props.data.info.imgs.map((item, i) => {
+						{this.props.data.imgs.map((item, i) => {
 							return <img width="80%" key={i} src={item}/>
 						})}
 					</div>
@@ -55,9 +55,9 @@ export default class Detail extends Component {
 						链接：
 					</div>
 					<div className="col-auto line">
-						{this.props.data.info.ftpUrl}
+						{this.props.data.ftpUrl}
 					</div>
-					<Button onClick={this.handleClick.bind(this, this.props.data.info.ftpUrl)} className="align-self-end" type="primary">复制</Button>
+					<Button onClick={this.handleClick.bind(this, this.props.data.ftpUrl)} className="align-self-end" type="primary">复制</Button>
 				</div>
 			</div>
 		</div>)

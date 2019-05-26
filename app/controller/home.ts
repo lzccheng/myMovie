@@ -5,7 +5,7 @@ export default class HomeController extends Controller {
     // console.log('mongoose:',await ctx.model.Movie.find());
     let data = await ctx.model.Movie.find();
     data = data.map(item => {
-      if (item.info.title && item.info.poster) return item; 
+      if (item.title && item.poster) return item; 
     }).filter(i => i)
     await ctx.render('home.js', {
       title: '88影视院',
