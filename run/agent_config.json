@@ -211,7 +211,7 @@
       "version": "1.0.0",
       "description": "基于 egg + react + typescript + webpack 服务端渲染工程骨架项目",
       "scripts": {
-        "start": "yarn tsc && yarn build && egg-scripts start",
+        "start": "yarn tsc && yarn build && egg-scripts start --daemon",
         "dev": "egg-bin dev -r egg-ts-helper/register",
         "debug": "egg-bin debug",
         "build": "easy build",

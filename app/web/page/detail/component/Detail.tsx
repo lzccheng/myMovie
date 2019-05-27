@@ -49,7 +49,7 @@ export default class Detail extends Component {
 							return <img width="80%" key={i} src={item}/>
 						})}
 					</div>
-				</div>
+				</div> 
 				<div className="row link">
 					<div className="col-2 link_text" style={{width: '120px'}}>
 						链接：

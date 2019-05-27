@@ -142,12 +142,22 @@ export default class HomeController extends Controller {
 	}
 	console.log(`${success}--->${result.length}, 成功率：${success / result.length * 100}%`)
 	// console.log(videoInfo)
-	await ctx.model.Movie.insertMany(videoInfo);
+	console.log('入库过滤中···')
+	let insertMany = [];
+	for (let i of videoInfo) {
+		let movie = await ctx.model.Movie.findOne({title: i.title});
+		if (!movie) {
+			insertMany.push(i)
+		}
+	}
+	console.log('入库数：', insertMany.length)
+	console.log(`入库数： ${insertMany.length}，重复率: ${(success - insertMany.length) / success * 100} %`)
+	await ctx.model.Movie.insertMany(insertMany);
     let data = await ctx.model.Movie.find();
     // console.log(data)
     ctx.body = {
-    	data,
-    	videoInfo
+    	text: `${success}--->${result.length}, 成功率：${success / result.length * 100}%`,
+    	insert: `入库数： ${insertMany.length}，重复率: ${(success - insertMany.length) / success * 100} %`,
     };
   }
 }
