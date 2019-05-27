@@ -256,3 +256,79 @@
 2019-05-27 23:05:07,838 INFO 12376 [egg-mongoose] mongodb://127.0.0.1/movies connected successfully
 2019-05-27 23:05:07,843 INFO 12376 [egg-mongoose] instance[0] start successfully
 2019-05-27 23:05:07,905 INFO 12376 [egg:core] dump config after ready, 53ms
+2019-05-27 23:25:39,773 INFO 13844 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-27 23:25:39,898 INFO 13844 [egg-multipart] stream mode enable
+2019-05-27 23:25:43,275 INFO 13844 [egg-mongoose] connecting mongodb://127.0.0.1/movies
+2019-05-27 23:25:43,610 INFO 13844 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\app\myMovie\public
+2019-05-27 23:25:43,620 INFO 13844 [egg-security] use csrf middleware
+2019-05-27 23:25:43,625 INFO 13844 [egg-security] use methodnoallow middleware
+2019-05-27 23:25:43,626 INFO 13844 [egg-security] use noopen middleware
+2019-05-27 23:25:43,630 INFO 13844 [egg-security] use nosniff middleware
+2019-05-27 23:25:43,632 INFO 13844 [egg-security] use xssProtection middleware
+2019-05-27 23:25:43,634 INFO 13844 [egg-security] use xframe middleware
+2019-05-27 23:25:43,636 INFO 13844 [egg-security] use dta middleware
+2019-05-27 23:25:43,636 INFO 13844 [egg-security] compose 7 middlewares into one security middleware
+2019-05-27 23:25:45,482 INFO 13844 [egg:core] dump config after load, 20ms
+2019-05-27 23:25:45,489 INFO 13844 [egg-mongoose] starting...
+2019-05-27 23:25:39,801 INFO 12916 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-27 23:25:39,902 INFO 12916 [egg-multipart] stream mode enable
+2019-05-27 23:25:43,275 INFO 12916 [egg-mongoose] connecting mongodb://127.0.0.1/movies
+2019-05-27 23:25:43,608 INFO 12916 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\app\myMovie\public
+2019-05-27 23:25:43,625 INFO 12916 [egg-security] use csrf middleware
+2019-05-27 23:25:43,629 INFO 12916 [egg-security] use methodnoallow middleware
+2019-05-27 23:25:43,631 INFO 12916 [egg-security] use noopen middleware
+2019-05-27 23:25:43,634 INFO 12916 [egg-security] use nosniff middleware
+2019-05-27 23:25:43,636 INFO 12916 [egg-security] use xssProtection middleware
+2019-05-27 23:25:43,638 INFO 12916 [egg-security] use xframe middleware
+2019-05-27 23:25:43,640 INFO 12916 [egg-security] use dta middleware
+2019-05-27 23:25:43,640 INFO 12916 [egg-security] compose 7 middlewares into one security middleware
+2019-05-27 23:25:45,482 INFO 12916 [egg:core] dump config after load, 21ms
+2019-05-27 23:25:45,489 INFO 12916 [egg-mongoose] starting...
+2019-05-27 23:25:39,810 INFO 7172 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-27 23:25:39,933 INFO 7172 [egg-multipart] stream mode enable
+2019-05-27 23:25:43,276 INFO 7172 [egg-mongoose] connecting mongodb://127.0.0.1/movies
+2019-05-27 23:25:43,612 INFO 7172 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\app\myMovie\public
+2019-05-27 23:25:43,622 INFO 7172 [egg-security] use csrf middleware
+2019-05-27 23:25:43,626 INFO 7172 [egg-security] use methodnoallow middleware
+2019-05-27 23:25:43,627 INFO 7172 [egg-security] use noopen middleware
+2019-05-27 23:25:43,632 INFO 7172 [egg-security] use nosniff middleware
+2019-05-27 23:25:43,634 INFO 7172 [egg-security] use xssProtection middleware
+2019-05-27 23:25:43,636 INFO 7172 [egg-security] use xframe middleware
+2019-05-27 23:25:43,638 INFO 7172 [egg-security] use dta middleware
+2019-05-27 23:25:43,638 INFO 7172 [egg-security] compose 7 middlewares into one security middleware
+2019-05-27 23:25:45,513 INFO 7172 [egg:core] dump config after load, 50ms
+2019-05-27 23:25:45,521 INFO 7172 [egg-mongoose] starting...
+2019-05-27 23:25:39,750 INFO 10808 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"myMovie-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-05-27 23:25:39,902 INFO 10808 [egg-multipart] stream mode enable
+2019-05-27 23:25:43,279 INFO 10808 [egg-mongoose] connecting mongodb://127.0.0.1/movies
+2019-05-27 23:25:43,606 INFO 10808 [egg-static] starting static serve /public/ -> C:\Users\cheng\Desktop\myMovie\app\myMovie\public
+2019-05-27 23:25:43,619 INFO 10808 [egg-security] use csrf middleware
+2019-05-27 23:25:43,623 INFO 10808 [egg-security] use methodnoallow middleware
+2019-05-27 23:25:43,625 INFO 10808 [egg-security] use noopen middleware
+2019-05-27 23:25:43,629 INFO 10808 [egg-security] use nosniff middleware
+2019-05-27 23:25:43,630 INFO 10808 [egg-security] use xssProtection middleware
+2019-05-27 23:25:43,632 INFO 10808 [egg-security] use xframe middleware
+2019-05-27 23:25:43,634 INFO 10808 [egg-security] use dta middleware
+2019-05-27 23:25:43,634 INFO 10808 [egg-security] compose 7 middlewares into one security middleware
+2019-05-27 23:25:45,525 INFO 10808 [egg:core] dump config after load, 57ms
+2019-05-27 23:25:45,536 INFO 10808 [egg-mongoose] starting...
+2019-05-27 23:25:45,604 INFO 13844 [egg-mongoose] mongodb://127.0.0.1/movies connected successfully
+2019-05-27 23:25:45,606 INFO 13844 [egg-mongoose] instance[0] start successfully
+2019-05-27 23:25:45,611 INFO 13844 [egg-watcher:application] watcher start success
+2019-05-27 23:25:45,639 INFO 13844 [egg:core] dump config after ready, 21ms
+2019-05-27 23:25:45,600 INFO 12916 [egg-mongoose] mongodb://127.0.0.1/movies connected successfully
+2019-05-27 23:25:45,603 INFO 12916 [egg-mongoose] instance[0] start successfully
+2019-05-27 23:25:45,609 INFO 12916 [egg-watcher:application] watcher start success
+2019-05-27 23:25:45,638 INFO 12916 [egg:core] dump config after ready, 20ms
+2019-05-27 23:25:45,636 INFO 7172 [egg-watcher:application] watcher start success
+2019-05-27 23:25:45,660 INFO 7172 [egg-mongoose] mongodb://127.0.0.1/movies connected successfully
+2019-05-27 23:25:45,664 INFO 7172 [egg-mongoose] instance[0] start successfully
+2019-05-27 23:25:45,686 INFO 7172 [egg:core] dump config after ready, 16ms
+2019-05-27 23:25:45,639 INFO 10808 [egg-watcher:application] watcher start success
+2019-05-27 23:25:45,662 INFO 10808 [egg-mongoose] mongodb://127.0.0.1/movies connected successfully
+2019-05-27 23:25:45,667 INFO 10808 [egg-mongoose] instance[0] start successfully
+2019-05-27 23:25:45,686 INFO 10808 [egg:core] dump config after ready, 15ms
+2019-05-27 23:25:55,937 WARN 7172 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-27 23:25:55,938 WARN 7172 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-27 23:25:55,936 WARN 10808 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-27 23:25:55,938 WARN 10808 [ClusterClient:Watcher] follower closed, and try to init it again

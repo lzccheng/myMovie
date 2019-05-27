@@ -7,17 +7,7 @@
       "encrypt": true
     },
     "security": {
-      "domainWhiteList": [
-        "http://localhost:7001",
-        "http://127.0.0.1:7001",
-        "http://192.168.62.183:7001",
-        "http://localhost:9000",
-        "http://127.0.0.1:9000",
-        "http://192.168.62.183:9000",
-        "http://localhost:9001",
-        "http://127.0.0.1:9001",
-        "http://192.168.62.183:9001"
-      ],
+      "domainWhiteList": [],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
@@ -94,7 +84,7 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "development",
+      "type": "default",
       "eventSources": {
         "default": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-watcher\\lib\\event-sources\\default",
         "development": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-watcher\\lib\\event-sources\\development"
@@ -125,19 +115,6 @@
         "cron": "0 30 4 * * *"
       }
     },
-    "development": {
-      "watchDirs": [
-        "build"
-      ],
-      "ignoreDirs": [
-        "app/web",
-        "public",
-        "config"
-      ],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
-    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -152,13 +129,13 @@
       "dir": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\public",
       "dynamic": true,
       "preload": false,
-      "buffer": false,
+      "buffer": true,
       "maxFiles": 1000,
-      "maxAge": 0
+      "maxAge": 31536000
     },
     "view": {
       "root": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\app\\view",
-      "cache": 0,
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {
@@ -188,17 +165,7 @@
       "app": true,
       "agent": false
     },
-    "cors": {},
-    "webpack": {
-      "port": 9000,
-      "proxy": {
-        "host": "http://127.0.0.1:9000",
-        "match": "/^\\/public\\//"
-      },
-      "webpackConfigList": []
-    },
-    "webpackreact": {},
-    "env": "local",
+    "env": "prod",
     "name": "myMovie",
     "keys": "<String len: 6>",
     "proxy": false,
@@ -211,7 +178,8 @@
       "version": "1.0.0",
       "description": "基于 egg + react + typescript + webpack 服务端渲染工程骨架项目",
       "scripts": {
-        "start": "yarn tsc && yarn build && egg-scripts start --daemon",
+        "start": "egg-scripts start --daemon --port=80",
+        "server": "yarn tsc && yarn build && yarn start",
         "dev": "egg-bin dev -r egg-ts-helper/register",
         "debug": "egg-bin debug",
         "build": "easy build",
@@ -328,19 +296,17 @@
     "logger": {
       "dir": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\logs",
       "encoding": "utf8",
-      "env": "local",
+      "env": "prod",
       "level": "INFO",
       "consoleLevel": "DEBUG",
-      "disableConsoleAfterReady": false,
+      "disableConsoleAfterReady": true,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "myMovie-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -390,9 +356,6 @@
     },
     "onClientError": null,
     "middleware": [],
-    "logview": {
-      "dir": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\logs"
-    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"
@@ -494,21 +457,6 @@
       "path": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-multipart",
       "version": "2.7.1"
     },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-development",
-      "version": "2.4.3"
-    },
     "logrotator": {
       "enable": true,
       "package": "egg-logrotator",
@@ -551,7 +499,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\plugin.ts",
+      "from": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\plugin.js",
       "path": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view-react-ssr",
       "version": "2.4.1"
     },
@@ -562,46 +510,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\plugin.ts",
+      "from": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\plugin.js",
       "path": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-mongoose",
       "version": "3.2.0"
-    },
-    "cors": {
-      "package": "egg-cors",
-      "enable": true,
-      "name": "cors",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\plugin.local.ts",
-      "path": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-cors",
-      "version": "2.2.0"
-    },
-    "webpack": {
-      "package": "egg-webpack",
-      "enable": true,
-      "name": "webpack",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\plugin.local.ts",
-      "path": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-webpack",
-      "version": "4.4.9"
-    },
-    "webpackreact": {
-      "package": "egg-webpack-react",
-      "enable": true,
-      "name": "webpackreact",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\plugin.local.ts",
-      "path": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-webpack-react",
-      "version": "2.0.2"
     }
   }
 }
