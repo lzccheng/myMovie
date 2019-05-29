@@ -126,7 +126,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\public",
+      "dir": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": true,
@@ -138,36 +138,11 @@
       "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
-      "mapping": {
-        ".js": "react",
-        ".jsx": "react"
-      }
-    },
-    "reactssr": {
-      "doctype": "<!doctype html>",
-      "layout": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\app\\web\\view\\layout.html",
-      "manifest": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\manifest.json",
-      "injectHeadRegex": "/(<\\/head>)/i",
-      "injectBodyRegex": "/(<\\/body>)/i",
-      "injectCss": true,
-      "injectJs": true,
-      "crossorigin": false,
-      "injectRes": [],
-      "mergeLocals": true,
-      "fallbackToClient": true,
-      "afterRender": "<Function afterRender>"
-    },
-    "mongoose": {
-      "url": "mongodb://127.0.0.1/movies",
-      "options": {},
-      "plugins": [],
-      "loadModel": true,
-      "app": true,
-      "agent": false
+      "mapping": {}
     },
     "env": "prod",
     "name": "myMovie",
-    "keys": "<String len: 6>",
+    "keys": "<String len: 0>",
     "proxy": false,
     "maxProxyCount": 0,
     "protocolHeaders": "x-forwarded-proto",
@@ -279,7 +254,7 @@
       "pageUrl": ""
     },
     "siteFile": {
-      "/favicon.ico": "<Buffer len: 4286>"
+      "/favicon.ico": "<Buffer len: 6463>"
     },
     "bodyParser": {
       "enable": true,
@@ -294,11 +269,11 @@
       }
     },
     "logger": {
-      "dir": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\logs",
+      "dir": "C:\\Users\\cheng\\logs\\myMovie",
       "encoding": "utf8",
       "env": "prod",
       "level": "INFO",
-      "consoleLevel": "DEBUG",
+      "consoleLevel": "INFO",
       "disableConsoleAfterReady": true,
       "outputJSON": false,
       "buffer": true,
@@ -355,10 +330,9 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [],
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": "~config~middleware",
-    "appMiddleware": "~config~middleware"
+    "appMiddlewares": [],
+    "appMiddleware": "~config~appMiddlewares"
   },
   "plugins": {
     "session": {
@@ -491,28 +465,6 @@
       "from": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view",
       "version": "2.1.2"
-    },
-    "reactssr": {
-      "package": "egg-view-react-ssr",
-      "enable": true,
-      "name": "reactssr",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\plugin.js",
-      "path": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view-react-ssr",
-      "version": "2.4.1"
-    },
-    "mongoose": {
-      "enable": true,
-      "package": "egg-mongoose",
-      "name": "mongoose",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\plugin.js",
-      "path": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-mongoose",
-      "version": "3.2.0"
     }
   }
 }

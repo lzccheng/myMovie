@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs } from 'antd';
+import { Tabs, Button } from 'antd';
 import Header from '../../../component/header/header';
 import Top from './TopComponent/top';
 import List from './list/List';
@@ -14,37 +14,36 @@ const tabItemClick = (key) => {
 // must export, not export default
 export class Tab extends Component<TabProps, any> {
   constructor () {
-    this.state = {
-      list: [
-        {
-          img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
-          title: '美女'
-        },
-        {
-          img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
-          title: '美女'
-        },
-        {
-          img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
-          title: '美女'
-        },
-        {
-          img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
-          title: '美女'
-        },
-        {
-          img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
-          title: '美女'
-        },
-        {
-          img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
-          title: '美女'
-        },
-      ]
-    }
+    // this.state = {
+    //   list: [
+    //     {
+    //       img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
+    //       title: '美女'
+    //     },
+    //     {
+    //       img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
+    //       title: '美女'
+    //     },
+    //     {
+    //       img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
+    //       title: '美女'
+    //     },
+    //     {
+    //       img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
+    //       title: '美女'
+    //     },
+    //     {
+    //       img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
+    //       title: '美女'
+    //     },
+    //     {
+    //       img: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558792378518&di=4a57d453d4fad8011cba48644cbbf03e&imgtype=0&src=http%3A%2F%2Fpic.chinadaily.com.cn%2Fimg%2Fattachement%2Fjpg%2Fsite1%2F20160205%2Fa41f726b0511181e21170b.jpg`,
+    //       title: '美女'
+    //     },
+    //   ]
+    // }
   }
   componentDidMount() {
-    console.log(this.props)
   }
   render() {
     return <div>

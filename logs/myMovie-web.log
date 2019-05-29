@@ -25,3 +25,43 @@ hostname: DESKTOP-VI1R32M
 pid: 12192
 hostname: DESKTOP-VI1R32M
 
+2019-05-29 22:43:29,000 ERROR 9052 [-/undefined/-/19000ms GET /] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:704:5)
+    at Socket._write (net.js:716:8)
+    at doWrite (_stream_writable.js:410:12)
+    at clearBuffer (_stream_writable.js:540:7)
+    at Socket.Writable.uncork (_stream_writable.js:314:7)
+    at ServerResponse.end (_http_outgoing.js:721:21)
+    at respond (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:239:43)
+    at handleResponse (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 9052
+hostname: DESKTOP-VI1R32M
+
+2019-05-29 23:09:10,033 ERROR 12820 [-/undefined/-/30933ms GET /] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:704:5)
+    at Socket._write (net.js:716:8)
+    at doWrite (_stream_writable.js:410:12)
+    at clearBuffer (_stream_writable.js:540:7)
+    at Socket.Writable.uncork (_stream_writable.js:314:7)
+    at ServerResponse.end (_http_outgoing.js:721:21)
+    at respond (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:239:43)
+    at handleResponse (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:149:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 12820
+hostname: DESKTOP-VI1R32M
+

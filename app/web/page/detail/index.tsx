@@ -28,5 +28,5 @@ function bootstrap() {
   ReactDOM.hydrate(<Detail {...state} />, root);
 }
 
-// export default bootstrap();
-export default App;
+export default bootstrap();
+// export default App;

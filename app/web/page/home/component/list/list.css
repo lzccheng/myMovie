@@ -3,7 +3,7 @@
 	transition: .5s;
 }
 .list_item:hover {
-	box-shadow: 0 0 8px #555;
+	box-shadow: 0 0 15px #555;
 	border-radius: 5px;
 }
 .list_item img {
