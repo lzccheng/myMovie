@@ -257,7 +257,7 @@
       "version": "1.0.0",
       "description": "基于 egg + react + typescript + webpack 服务端渲染工程骨架项目",
       "scripts": {
-        "start": "egg-scripts start --daemon --port=80",
+        "start": "egg-scripts start --daemon --port=3000",
         "server": "yarn tsc && yarn build && yarn start",
         "dev": "egg-bin dev -r egg-ts-helper/register",
         "debug": "egg-bin debug",

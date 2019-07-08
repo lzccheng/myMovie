@@ -51,13 +51,9 @@ export class Tab extends Component<TabProps, any> {
       <Header></Header>
       <div className="container">
         <div className="row justify-content-between">
-          <div className="col-md-9 col-lg-9">
+          <div>
             <Top text={'视频：'}/>
             <List list={this.props.data}/>
-          </div>
-          <div className="col-md-3 col-lg-3 hidden-xs hidden-sm">
-            <Top text={'分类：'}/>
-            <Sort />
           </div>
         </div>
       </div>
