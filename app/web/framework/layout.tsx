@@ -13,7 +13,7 @@ export default class Layout extends Component<any> {
           var _hmt = _hmt || [];
           (function() {
             var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?9ede63df5a953e85f86b234dd06ce7e0";
+            hm.src = `https://hm.baidu.com/hm.js?9ede63df5a953e85f86b234dd06ce7e0`;
             var s = document.getElementsByTagName("script")[0]; 
             s.parentNode.insertBefore(hm, s);
           })();
