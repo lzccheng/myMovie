@@ -1,12 +1,80 @@
 {
-  "session": {
-    "maxAge": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-session\\config\\config.default.js"
+  "siteFile": {
+    "/favicon.ico": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.default.ts"
+  },
+  "logger": {
+    "consoleLevel": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.default.ts",
+    "dir": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.default.ts",
+    "encoding": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
+    "env": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
+    "level": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.default.ts",
+    "dir": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.default.ts",
+    "maxAge": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.local.ts",
+    "dynamic": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "keys": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.default.ts",
+  "middleware": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.default.ts",
+  "reactssr": {
+    "layout": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.default.ts",
+    "injectCss": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.local.ts",
+    "doctype": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "manifest": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectHeadRegex": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectBodyRegex": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectJs": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "crossorigin": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectRes": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "mergeLocals": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "fallbackToClient": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "afterRender": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view-react-ssr\\config\\config.default.js"
+  },
+  "mongoose": {
+    "url": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.default.ts",
+    "options": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.default.ts",
+    "plugins": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "loadModel": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "app": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "agent": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-mongoose\\config\\config.default.js"
+  },
+  "view": {
+    "cache": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.local.ts",
+    "root": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultExtension": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": {
+      ".js": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+      ".jsx": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view-react-ssr\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.local.ts",
+    "ignoreDirs": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.local.ts",
+    "fastReady": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logview": {
+    "dir": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.local.ts"
   },
   "security": {
-    "domainWhiteList": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\config\\config.local.ts",
     "protocolWhiteList": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-security\\config\\config.default.js",
     "defaultMiddleware": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
@@ -24,7 +92,7 @@
       "value": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-security\\config\\config.default.js",
+      "enable": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-security\\config\\config.local.js",
       "maxAge": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-security\\config\\config.default.js",
       "includeSubdomains": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-security\\config\\config.default.js"
     },
@@ -57,6 +125,12 @@
       "checkAddress": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
+  "session": {
+    "maxAge": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-session\\config\\config.default.js"
+  },
   "helper": {
     "shtml": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-security\\config\\config.default.js"
   },
@@ -79,7 +153,7 @@
     "cookieMaxAge": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-watcher\\config\\config.default.js",
+    "type": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
       "default": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-watcher\\config\\config.default.js",
       "development": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-watcher\\config\\config.default.js"
@@ -119,25 +193,18 @@
     "rotateDuration": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-logrotator\\config\\config.default.js",
     "maxDays": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
-  "static": {
-    "prefix": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-static\\config\\config.prod.js",
-    "maxFiles": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-static\\config\\config.default.js",
-    "maxAge": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-static\\config\\config.prod.js"
+  "cors": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-cors\\config\\config.default.js",
+  "webpack": {
+    "port": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-webpack\\config\\config.default.js",
+    "proxy": {
+      "host": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-webpack\\config\\config.default.js",
+      "match": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-webpack\\config\\config.default.js"
+    },
+    "webpackConfigList": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-webpack\\config\\config.default.js"
   },
-  "view": {
-    "root": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultExtension": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-view\\config\\config.default.js"
-  },
+  "webpackreact": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg-webpack-react\\config\\config.default.js",
   "env": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
   "name": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
-  "keys": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
   "proxy": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
   "maxProxyCount": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
   "protocolHeaders": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
@@ -248,9 +315,6 @@
   "notfound": {
     "pageUrl": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js"
   },
-  "siteFile": {
-    "/favicon.ico": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js"
-  },
   "bodyParser": {
     "enable": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
     "encoding": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
@@ -262,22 +326,6 @@
       "depth": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
       "parameterLimit": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js"
     }
-  },
-  "logger": {
-    "dir": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
-    "env": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
-    "level": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
-    "coreLogger": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",
-    "allowDebugAtProd": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
     "enableDNSCache": "C:\\Users\\cheng\\Desktop\\myMovie\\app\\myMovie\\node_modules\\egg\\config\\config.default.js",

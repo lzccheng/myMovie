@@ -3,6 +3,7 @@ import { Tabs, Button } from 'antd';
 import Header from '../../../component/header/header';
 import Top from './TopComponent/top';
 import List from './list/List';
+import Sort from './Sort/Sort';
 import { TabProps } from '../../../framework/type';
 import './tab.css';
 
@@ -56,6 +57,7 @@ export class Tab extends Component<TabProps, any> {
           </div>
           <div className="col-md-3 col-lg-3 hidden-xs hidden-sm">
             <Top text={'分类：'}/>
+            <Sort />
           </div>
         </div>
       </div>

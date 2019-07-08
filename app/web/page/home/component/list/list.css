@@ -16,6 +16,12 @@
 	margin-top: 10px;
 }
 .item_img {
-	height: 300px;
+	height: 250px;
+	border-radius: 5px;
 	overflow-y: hidden;
+}
+.title_ {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }

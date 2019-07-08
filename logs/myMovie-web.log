@@ -1,4 +1,4 @@
-2019-05-27 22:49:43,669 ERROR 9260 [-/undefined/-/5620ms GET /] nodejs.ECONNRESETError: write ECONNRESET
+2019-07-08 16:04:19,340 ERROR 7688 [-/undefined/-/37024ms GET /index] nodejs.ECONNRESETError: write ECONNRESET
     at afterWriteDispatched (internal/stream_base_commons.js:78:25)
     at writeGeneric (internal/stream_base_commons.js:73:3)
     at Socket._writeGeneric (net.js:704:5)
@@ -15,53 +15,21 @@ code: "ECONNRESET"
 syscall: "write"
 headerSent: true
 name: "ECONNRESETError"
-pid: 9260
+pid: 7688
 hostname: DESKTOP-VI1R32M
 
-2019-05-27 22:55:16,713 ERROR 12192 [-/::1/-/16049ms GET /get_data] nodejs.TypeError: Cannot read property 'title' of null
-    at HomeController.index (C:\Users\cheng\Desktop\myMovie\app\myMovie\app\controller\getdata.ts:149:25)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 12192
-hostname: DESKTOP-VI1R32M
-
-2019-05-29 22:43:29,000 ERROR 9052 [-/undefined/-/19000ms GET /] nodejs.ECONNRESETError: write ECONNRESET
-    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
-    at writeGeneric (internal/stream_base_commons.js:73:3)
-    at Socket._writeGeneric (net.js:704:5)
-    at Socket._write (net.js:716:8)
-    at doWrite (_stream_writable.js:410:12)
-    at clearBuffer (_stream_writable.js:540:7)
-    at Socket.Writable.uncork (_stream_writable.js:314:7)
-    at ServerResponse.end (_http_outgoing.js:721:21)
-    at respond (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:239:43)
-    at handleResponse (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:149:34)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-errno: "ECONNRESET"
-code: "ECONNRESET"
-syscall: "write"
+2019-07-08 16:16:35,796 ERROR 7688 [-/undefined/-/360142ms GET /detail?id=5cf2576de8d8cd2f6c76f955] nodejs.MongoNetworkError: connection 1 to 127.0.0.1:27017 timed out
+    at Socket.<anonymous> (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\mongodb-core\lib\connection\connection.js:335:7)
+    at Object.onceWrapper (events.js:277:13)
+    at Socket.emit (events.js:189:13)
+    at Socket._onTimeout (net.js:440:8)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "MongoNetworkError"
+errorLabels: ["TransientTransactionError"]
 headerSent: true
-name: "ECONNRESETError"
-pid: 9052
-hostname: DESKTOP-VI1R32M
-
-2019-05-29 23:09:10,033 ERROR 12820 [-/undefined/-/30933ms GET /] nodejs.ECONNRESETError: write ECONNRESET
-    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
-    at writeGeneric (internal/stream_base_commons.js:73:3)
-    at Socket._writeGeneric (net.js:704:5)
-    at Socket._write (net.js:716:8)
-    at doWrite (_stream_writable.js:410:12)
-    at clearBuffer (_stream_writable.js:540:7)
-    at Socket.Writable.uncork (_stream_writable.js:314:7)
-    at ServerResponse.end (_http_outgoing.js:721:21)
-    at respond (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:239:43)
-    at handleResponse (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:149:34)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-errno: "ECONNRESET"
-code: "ECONNRESET"
-syscall: "write"
-headerSent: true
-name: "ECONNRESETError"
-pid: 12820
+pid: 7688
 hostname: DESKTOP-VI1R32M
 
