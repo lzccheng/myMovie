@@ -1,86 +1,153 @@
-2019-07-08 16:04:19,338 ERROR 7688 [-/undefined/-/37024ms GET /index] nodejs.ECONNRESETError: write ECONNRESET
-    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
-    at writeGeneric (internal/stream_base_commons.js:73:3)
-    at Socket._writeGeneric (net.js:704:5)
-    at Socket._write (net.js:716:8)
-    at doWrite (_stream_writable.js:410:12)
-    at clearBuffer (_stream_writable.js:540:7)
-    at Socket.Writable.uncork (_stream_writable.js:314:7)
-    at ServerResponse.end (_http_outgoing.js:721:21)
-    at respond (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:239:43)
-    at handleResponse (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-core\node_modules\koa\lib\application.js:149:34)
+2019-07-09 00:14:28,110 ERROR 1740 [-/::1/-/235ms GET /index] nodejs.ReferenceError: document is not defined
+    at Layout.render (webpack:///./app/web/framework/layout.tsx?:39:23)
+    at processChild (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2959:18)
+    at resolve (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2812:5)
+    at ReactDOMServerRenderer.render (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3202:22)
+    at ReactDOMServerRenderer.read (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3161:29)
+    at Object.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3646:27)
+    at Engine.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:130:27)
+    at Engine.renderElement (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:100:35)
+    at C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\co\index.js:65:19)
     at process._tickCallback (internal/process/next_tick.js:68:7)
-errno: "ECONNRESET"
-code: "ECONNRESET"
-syscall: "write"
-headerSent: true
-name: "ECONNRESETError"
-pid: 7688
+
+pid: 1740
 hostname: DESKTOP-VI1R32M
 
-2019-07-08 16:12:48,445 ERROR 4696 nodejs.ClusterClientNoResponseError: client no response in 69036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\cluster-client\lib\leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 4696
+2019-07-09 00:14:40,440 ERROR 1740 [-/::1/-/236ms GET /index] nodejs.ReferenceError: document is not defined
+    at Layout.render (webpack:///./app/web/framework/layout.tsx?:39:23)
+    at processChild (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2959:18)
+    at resolve (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2812:5)
+    at ReactDOMServerRenderer.render (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3202:22)
+    at ReactDOMServerRenderer.read (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3161:29)
+    at Object.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3646:27)
+    at Engine.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:130:27)
+    at Engine.renderElement (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:100:35)
+    at C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1740
 hostname: DESKTOP-VI1R32M
 
-2019-07-08 16:11:49,440 ERROR 7688 [-/undefined/-/360142ms GET /detail?id=5cf2576de8d8cd2f6c76f955] nodejs.MongoNetworkError: connection 1 to 127.0.0.1:27017 timed out
-    at Socket.<anonymous> (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\mongodb-core\lib\connection\connection.js:335:7)
-    at Object.onceWrapper (events.js:277:13)
-    at Socket.emit (events.js:189:13)
-    at Socket._onTimeout (net.js:440:8)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "MongoNetworkError"
-errorLabels: ["TransientTransactionError"]
-headerSent: true
-pid: 7688
+2019-07-09 00:15:08,039 ERROR 1740 [-/::1/-/231ms GET /index] nodejs.ReferenceError: document is not defined
+    at Layout.render (webpack:///./app/web/framework/layout.tsx?:39:23)
+    at processChild (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2959:18)
+    at resolve (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2812:5)
+    at ReactDOMServerRenderer.render (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3202:22)
+    at ReactDOMServerRenderer.read (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3161:29)
+    at Object.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3646:27)
+    at Engine.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:130:27)
+    at Engine.renderElement (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:100:35)
+    at C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1740
 hostname: DESKTOP-VI1R32M
 
-2019-07-08 16:16:35,840 ERROR 7688 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:61695)
-    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
-    at writeGeneric (internal/stream_base_commons.js:73:3)
-    at Socket._writeGeneric (net.js:704:5)
-    at Socket._write (net.js:716:8)
-    at doWrite (_stream_writable.js:410:12)
-    at writeOrBuffer (_stream_writable.js:394:5)
-    at Socket.Writable.write (_stream_writable.js:294:11)
-    at Follower.sendHeartBeat (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\tcp-base\lib\base.js:105:18)
-    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\tcp-base\lib\base.js:437:12)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-errno: "ECONNABORTED"
-code: "ECONNABORTED"
-syscall: "write"
-name: "ECONNABORTEDError"
-pid: 7688
+2019-07-09 00:21:22,260 ERROR 1740 [-/::1/-/228ms GET /index] nodejs.ReferenceError: document is not defined
+    at Layout.render (webpack:///./app/web/framework/layout.tsx?:39:29)
+    at processChild (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2959:18)
+    at resolve (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2812:5)
+    at ReactDOMServerRenderer.render (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3202:22)
+    at ReactDOMServerRenderer.read (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3161:29)
+    at Object.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3646:27)
+    at Engine.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:130:27)
+    at Engine.renderElement (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:100:35)
+    at C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1740
 hostname: DESKTOP-VI1R32M
 
-2019-07-08 20:14:18,647 ERROR 4696 nodejs.ClusterClientNoResponseError: client no response in 10802536ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\cluster-client\lib\leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 4696
+2019-07-09 00:21:39,685 ERROR 1740 [-/::1/-/170ms GET /index] nodejs.ReferenceError: document is not defined
+    at Layout.render (webpack:///./app/web/framework/layout.tsx?:39:29)
+    at processChild (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2959:18)
+    at resolve (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2812:5)
+    at ReactDOMServerRenderer.render (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3202:22)
+    at ReactDOMServerRenderer.read (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3161:29)
+    at Object.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3646:27)
+    at Engine.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:130:27)
+    at Engine.renderElement (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:100:35)
+    at C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1740
 hostname: DESKTOP-VI1R32M
 
-2019-07-08 21:42:42,874 ERROR 4696 nodejs.ClusterClientNoResponseError: client no response in 5284220ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\cluster-client\lib\leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 4696
+2019-07-09 00:22:26,159 ERROR 1740 [-/::1/-/243ms GET /index] nodejs.ReferenceError: document is not defined
+    at Layout.render (webpack:///./app/web/framework/layout.tsx?:39:29)
+    at processChild (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2959:18)
+    at resolve (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2812:5)
+    at ReactDOMServerRenderer.render (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3202:22)
+    at ReactDOMServerRenderer.read (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3161:29)
+    at Object.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3646:27)
+    at Engine.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:130:27)
+    at Engine.renderElement (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:100:35)
+    at C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1740
+hostname: DESKTOP-VI1R32M
+
+2019-07-09 00:22:29,822 ERROR 1740 [-/::1/-/198ms GET /index] nodejs.ReferenceError: document is not defined
+    at Layout.render (webpack:///./app/web/framework/layout.tsx?:39:29)
+    at processChild (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2959:18)
+    at resolve (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2812:5)
+    at ReactDOMServerRenderer.render (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3202:22)
+    at ReactDOMServerRenderer.read (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3161:29)
+    at Object.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3646:27)
+    at Engine.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:130:27)
+    at Engine.renderElement (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:100:35)
+    at C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1740
+hostname: DESKTOP-VI1R32M
+
+2019-07-09 00:22:38,471 ERROR 1740 [-/::1/-/141ms GET /index] nodejs.ReferenceError: document is not defined
+    at Layout.render (webpack:///./app/web/framework/layout.tsx?:39:29)
+    at processChild (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2959:18)
+    at resolve (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2812:5)
+    at ReactDOMServerRenderer.render (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3202:22)
+    at ReactDOMServerRenderer.read (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3161:29)
+    at Object.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3646:27)
+    at Engine.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:130:27)
+    at Engine.renderElement (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:100:35)
+    at C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1740
+hostname: DESKTOP-VI1R32M
+
+2019-07-09 00:22:40,920 ERROR 1740 [-/::1/-/168ms GET /index] nodejs.ReferenceError: document is not defined
+    at Layout.render (webpack:///./app/web/framework/layout.tsx?:39:29)
+    at processChild (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2959:18)
+    at resolve (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:2812:5)
+    at ReactDOMServerRenderer.render (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3202:22)
+    at ReactDOMServerRenderer.read (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3161:29)
+    at Object.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\react-dom\cjs\react-dom-server.node.development.js:3646:27)
+    at Engine.renderToString (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:130:27)
+    at Engine.renderElement (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-view-react-ssr\lib\engine.js:100:35)
+    at C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\cheng\Desktop\myMovie\app\myMovie\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1740
 hostname: DESKTOP-VI1R32M
 
