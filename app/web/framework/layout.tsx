@@ -9,6 +9,15 @@ export default class Layout extends Component<any> {
         <meta name="keywords" content={this.props.keywords}></meta>
         <meta name="description" content={this.props.description}></meta>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"></link>
+        <script>
+          var _hmt = _hmt || [];
+          (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?9ede63df5a953e85f86b234dd06ce7e0";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+          })();
+        </script>
       </head>
       <body><div id="app">{this.props.children}</div></body>
     </html>;
